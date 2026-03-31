@@ -1,7 +1,3 @@
-/* =========================
-   基本 DOM 與狀態
-========================= */
-
 const list = document.getElementById("list");
 
 let allPlaces = [];
@@ -23,32 +19,58 @@ async function loadData() {
 
     render();
   } catch (err) {
-    list.innerHTML = "<p>❌ 資料載入失敗，請確認 JSON 路徑</p>";
     console.error(err);
+    list.innerHTML = "<p>❌ 資料載入失敗，請確認 JSON 結構</p>";
   }
 }
 
 /* =========================
-   主渲染（支援交通方式）
+   統一取得行程順序
+   ✅ 同時支援 places / stops
+========================= */
+
+function getStops(dayData) {
+  // ✅ 新格式
+  if (Array.isArray(dayData.stops)) {
+    return dayData.stops;
+  }
+
+  // ✅ 舊格式自動轉換
+  if (Array.isArray(dayData.places)) {
+    return dayData.places.map(id => ({ place: id }));
+  }
+
+  return [];
+}
+
+/* =========================
+   主渲染
 ========================= */
 
 function render() {
   list.innerHTML = "";
 
   const dayData = itineraries.find(d => d.day === currentDay);
-  if (!dayData || !dayData.stops) {
-    list.innerHTML = "<p>⚠ 找不到行程資料</p>";
-    return;
-  }
+  if (!dayData) return;
 
-  dayData.stops.forEach(item => {
+  const stops = getStops(dayData);
 
-    /* ===== 🚏 景點 / 餐廳卡片 ===== */
+  stops.forEach(item => {
+
+    /* ===== 交通說明 ===== */
+    if (item.transport) {
+      const t = document.createElement("div");
+      t.className = "transport";
+      t.innerText = item.transport;
+      list.appendChild(t);
+      return;
+    }
+
+    /* ===== 地點卡片 ===== */
     if (item.place) {
       const place = allPlaces.find(p => p.id === item.place);
       if (!place) return;
 
-      // 類型篩選
       if (currentType !== "all" && place.type !== currentType) return;
 
       const card = document.createElement("div");
@@ -64,26 +86,10 @@ function render() {
 
         <div class="card-details">
           <p>${place.description || ""}</p>
-
-          <p><strong>⏰ 營業時間：</strong>${place.opening_hours || "－"}</p>
-          <p><strong>🚇 交通方式：</strong>${place.transport || "－"}</p>
-
-          ${
-            place.tips
-              ? `
-                <p><strong>⚠ 注意事項：</strong></p>
-                <ul>
-                  ${place.tips.map(t => `<li>${t}</li>`).join("")}
-                </ul>
-              `
-              : ""
-          }
-
           <button class="map-btn">📍 在 Google 地圖中開啟</button>
         </div>
       `;
 
-      /* Accordion（一次只開一張） */
       card.querySelector(".card-header").onclick = () => {
         document.querySelectorAll(".card.open").forEach(c => {
           if (c !== card) c.classList.remove("open");
@@ -91,7 +97,6 @@ function render() {
         card.classList.toggle("open");
       };
 
-      /* 開 Google Maps（手機最穩） */
       card.querySelector(".map-btn").onclick = (e) => {
         e.stopPropagation();
         window.location.href = place.map_url;
@@ -99,42 +104,25 @@ function render() {
 
       list.appendChild(card);
     }
-
-    /* ===== 🚶 交通方式 ===== */
-    if (item.transport) {
-      const transportDiv = document.createElement("div");
-      transportDiv.className = "transport";
-      transportDiv.innerHTML = item.transport;
-      list.appendChild(transportDiv);
-    }
-
   });
 }
 
 /* =========================
-   Day 分頁
+   Tabs / Filters
 ========================= */
 
 document.querySelectorAll("#tabs button").forEach(btn => {
   btn.onclick = () => {
-    document.querySelectorAll("#tabs button").forEach(b =>
-      b.classList.remove("active")
-    );
+    document.querySelectorAll("#tabs button").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     currentDay = btn.dataset.day;
     render();
   };
 });
 
-/* =========================
-   類型篩選（景點 / 餐廳）
-========================= */
-
 document.querySelectorAll("#filters button").forEach(btn => {
   btn.onclick = () => {
-    document.querySelectorAll("#filters button").forEach(b =>
-      b.classList.remove("active")
-    );
+    document.querySelectorAll("#filters button").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     currentType = btn.dataset.type;
     render();
