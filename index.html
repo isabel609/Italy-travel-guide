@@ -2,23 +2,35 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>東京旅遊手冊</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- ✅ 手機 6:19 主要閱讀容器 -->
   <div id="app">
+
     <h1>東京旅遊手冊</h1>
 
+    <!-- Day 分頁 -->
     <div id="tabs">
-      ...
+      <button data-day="day1" class="active">Day 1</button>
+      <button data-day="day2">Day 2</button>
     </div>
 
+    <!-- 類型篩選 -->
     <div id="filters">
-      ...
+      <button data-type="all" class="active">全部</button>
+      <button data-type="attraction">景點</button>
+      <button data-type="restaurant">餐廳</button>
     </div>
 
+    <!-- 清單 -->
     <div id="list"></div>
+
   </div>
 
+  <script src="script.js"></script>
 </body>
+</html>
