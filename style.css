@@ -186,4 +186,13 @@ body {
     font-size: 22px;
     margin-bottom: 16px;
   }
+.transport {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  padding: 8px 12px;
+  margin: 6px 0 14px;
+  background: #f1f1f1;
+  border-radius: 8px;
+}
 }
