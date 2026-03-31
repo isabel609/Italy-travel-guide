@@ -5,34 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>東京旅遊手冊</title>
 
-  <!-- ✅ 正確載入 CSS -->
-  style.css
+  <!-- ✅ 一定要正確載入 -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ✅ 6:19 手機閱讀容器 -->
+  <!-- ✅ 主容器 -->
   <div id="app">
 
     <h1>東京旅遊手冊</h1>
 
-    <!-- Day 分頁 -->
     <div id="tabs">
       <button data-day="day1" class="active">Day 1</button>
       <button data-day="day2">Day 2</button>
     </div>
 
-    <!-- 類型篩選 -->
     <div id="filters">
       <button data-type="all" class="active">全部</button>
       <button data-type="attraction">景點</button>
       <button data-type="restaurant">餐廳</button>
     </div>
 
-    <!-- ✅ JS 會往這裡塞卡片 -->
+    <!-- ✅ JS 會塞卡片的地方，一定要存在 -->
     <div id="list"></div>
 
   </div>
 
-  <!-- ✅ 正確載入 JS（一定要在 body 最後） -->
-  <script src="script</body>
+  <!-- ✅ JS 一定要放在 body 最後 -->
+  <script src="script.js"></script>
+</body>
 </html>
