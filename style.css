@@ -195,4 +195,12 @@ body {
   background: #f1f1f1;
   border-radius: 8px;
 }
+  .timeline-note {
+  margin: 8px 0 16px 40px;   /* 左縮排，讓它不是主角 */
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+  pointer-events: none;     /* ✅ 不可點 */
+}
+
 }
