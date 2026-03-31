@@ -1,82 +1,124 @@
 const list = document.getElementById("list");
 
-const allPlaces = [
-  {
-    id: "asakusa",
-    name: "淺草寺",
-    type: "attraction",
-    description: "測試用景點",
-    map_url: "https://www.google.com/maps/search/?api=1&query=淺草寺"
-  },
-  {
-    id: "ueno_zoo",
-    name: "上野動物園",
-    type: "attraction",
-    description: "測試用動物園",
-    map_url: "https://www.google.com/maps/search/?api=1&query=上野動物園"
-  }
-];
-
-const itineraries = [
-  {
-    day: "day1",
-    stops: [
-      { place: "asakusa" },
-      { transport: "🚇 測試交通：淺草 → 上野" },
-      { place: "ueno_zoo" }
-    ]
-  }
-];
-
+let allPlaces = [];
+let itineraries = [];
 let currentDay = "day1";
+let currentType = "all";
 
+/* =========================
+   載入資料
+========================= */
+async function loadData() {
+  try {
+    const placesRes = await fetch("./data/places.json");
+    const itineraryRes = await fetch("./data/itinerary.json");
+
+    allPlaces = await placesRes.json();
+    itineraries = await itineraryRes.json();
+
+    render();
+  } catch (err) {
+    console.error(err);
+    list.innerHTML = "<p>❌ 資料載入失敗</p>";
+  }
+}
+
+/* =========================
+   主畫面（穩定版：只用 places）
+========================= */
 function render() {
   list.innerHTML = "";
 
   const dayData = itineraries.find(d => d.day === currentDay);
-  if (!dayData) {
-    list.innerHTML = "<p>找不到 day</p>";
-    return;
-  }
+  if (!dayData || !dayData.places) return;
 
-  dayData.stops.forEach(item => {
+  dayData.places.forEach(placeId => {
+    const place = allPlaces.find(p => p.id === placeId);
+    if (!place) return;
 
-    if (item.transport) {
-      const t = document.createElement("div");
-      t.className = "transport";
-      t.innerText = item.transport;
-      list.appendChild(t);
-      return;
-    }
+    // 類型篩選
+    if (currentType !== "all" && place.type !== currentType) return;
 
-    if (item.place) {
-      const place = allPlaces.find(p => p.id === item.place);
-      if (!place) return;
+    const card = document.createElement("div");
+    card.className = "card";
 
-      const card = document.createElement("div");
-      card.className = "card";
+    card.innerHTML = `
+      <div class="card-header">
+        <h3>${place.name}</h3>
+        <span class="card-type">
+          ${place.type === "restaurant" ? "餐廳" : "景點"}
+        </span>
+      </div>
 
-      card.innerHTML = `
-        <div class="card-header">
-          <h3>${place.name}</h3>
-        </div>
-        <div class="card-details">
-          <p>${place.description}</p>
-          <button class="map-btn">在地圖中開啟</button>
-        </div>
-      `;
+      <div class="card-details">
+        <p>${place.description || ""}</p>
 
-      card.querySelector(".card-header").onclick = () => {
-        card.classList.toggle("open");
-      };
+        <p><strong>⏰ 營業時間：</strong>${place.opening_hours || "－"}</p>
+        <p><strong>🚇 交通方式：</strong>${place.transport || "－"}</p>
 
-      card.querySelector(".map-btn").onclick = () => {
-        window.location.href = place.map_url;
-      };
+        ${
+          place.tips
+            ? `
+              <p><strong>⚠ 注意事項：</strong></p>
+              <ul>
+                ${place.tips.map(t => `<li>${t}</li>`).join("")}
+              </ul>
+            `
+            : ""
+        }
 
-      list.appendChild(card);
-    }
+        <button class="map-btn">📍 在 Google 地圖中開啟</button>
+      </div>
+    `;
+
+    // Accordion
+    card.querySelector(".card-header").onclick = () => {
+      document.querySelectorAll(".card.open").forEach(c => {
+        if (c !== card) c.classList.remove("open");
+      });
+      card.classList.toggle("open");
+    };
+
+    // 開 Google Maps
+    card.querySelector(".map-btn").onclick = (e) => {
+      e.stopPropagation();
+      window.location.href = place.map_url;
+    };
+
+    list.appendChild(card);
   });
 }
 
-render();
+/* =========================
+   Day 分頁
+========================= */
+document.querySelectorAll("#tabs button").forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll("#tabs button").forEach(b =>
+      b.classList.remove("active")
+    );
+    btn.classList.add("active");
+    currentDay = btn.dataset.day;
+    render();
+  };
+});
+
+/* =========================
+   類型篩選
+========================= */
+document.querySelectorAll("#filters button").forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll("#filters button").forEach(b =>
+      b.classList.remove("active")
+    );
+    btn.classList.add("active");
+    currentType = btn.dataset.type;
+    render();
+  };
+});
+
+/* =========================
+   啟動
+========================= */
+loadData();
+
