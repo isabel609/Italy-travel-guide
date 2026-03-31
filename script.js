@@ -76,7 +76,7 @@ function render() {
 
      card.querySelector(".map-btn").onclick = (e) => {
       e.stopPropagation();
-      window.open(place.map_url, "_blank");
+      window.location.href = place.map_url;
     };
 
       list.appendChild(card);
