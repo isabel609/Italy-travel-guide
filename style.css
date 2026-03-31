@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* ===== 分頁與篩選 ===== */
+#tabs, #filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.active {
+  background: #333;
+  color: white;
+}
+
+
+/* ✅ 預設細節是收起來的 */
+.card-details {
+  display: none;
+}
+
+/* ✅ 只有 .open 的卡片才展開 */
+.card.open .card-details {
+  display: block;
+}
+
+/* ===== 卡片整體外觀 ===== */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  overflow: hidden; /* 很重要，讓收合乾淨 */
+}
+
+/* 上半部：永遠顯示（基本資訊） */
+.card-header {
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #fafafa;
+}
+
+.card-header:hover {
+  background: #f0f0f0;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-type {
+  font-size: 12px;
+  color: #666;
+}
+
+/* 下半部：可收合的詳細資訊 */
+.card-details {
+  padding: 12px 14px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+
+  display: none;        /* ✅ 預設收合 */
+}
+
+.card.open .card-details {
+  display: block;       /* ✅ 展開 */
+}
+
+/* 地圖按鈕 */
+.card-details .map-btn {
+  margin-top: 10px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+/* ===== 主要版面 ===== */

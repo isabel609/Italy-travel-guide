@@ -1,0 +1,29 @@
+[
+  {
+    "id": "asakusa",
+    "name": "淺草寺",
+    "type": "attraction",
+    "tags": ["文化", "拍照"],
+    "description": "東京最古老的佛寺。",
+    "opening_hours": "08:00 – 17:00",
+    "transport": "銀座線／淺草線「淺草站」步行 5 分鐘",
+    "tips": [
+      "早上人較少",
+      "雷門晚上很好拍"
+    ],
+    "map_url": "https://www.google.com/maps?q=淺草寺"
+  },
+  {
+    "id": "ramen",
+    "name": "一蘭拉麵 上野店",
+    "type": "restaurant",
+    "tags": ["拉麵"],
+    "description": "單人友善拉麵。",
+    "opening_hours": "24 小時",
+    "transport": "JR 上野站步行 3 分鐘",
+    "tips": [
+      "宵夜時段排隊較短"
+    ],
+    "map_url": "https://www.google.com/maps?q=一蘭拉麵 上野店"
+  }
+]
