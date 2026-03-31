@@ -38,7 +38,7 @@ function render() {
   const dayData = itineraries.find(d => d.day === currentDay);
   if (!dayData || !dayData.places) return;
 
-  dayData.places.forEach(placeId => {
+  dayData.places.forEach(placeId, index) => {
     const place = allPlaces.find(p => p.id === placeId);
     if (!place) return;
 
@@ -91,6 +91,22 @@ function render() {
     };
 
     list.appendChild(card);
+
+/* ===================================================
+   ✅ 流程標註（只在「全部」分頁顯示）
+   ✅ 不屬於卡片、不影響資料結構
+=================================================== */
+if (
+  currentType === "all" &&          // ✅ 只在【全部】
+  flowNotes[currentDay] &&          // ✅ 這一天有定義
+  flowNotes[currentDay][index]      // ✅ 這個順序有標註
+) {
+  const note = document.createElement("div");
+  note.className = "timeline-note";
+  note.textContent = flowNotes[currentDay][index];
+  list.appendChild(note);
+}
+
   });
 }
 
