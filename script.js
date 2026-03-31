@@ -5,9 +5,7 @@ let itineraries = [];
 let currentDay = "day1";
 let currentType = "all";
 
-/* =========================
-   載入資料
-========================= */
+/* 載入資料 */
 async function loadData() {
   try {
     const placesRes = await fetch("./data/places.json");
@@ -23,9 +21,7 @@ async function loadData() {
   }
 }
 
-/* =========================
-   主畫面（穩定版：只用 places）
-========================= */
+/* 主畫面（穩定版本） */
 function render() {
   list.innerHTML = "";
 
@@ -36,7 +32,6 @@ function render() {
     const place = allPlaces.find(p => p.id === placeId);
     if (!place) return;
 
-    // 類型篩選
     if (currentType !== "all" && place.type !== currentType) return;
 
     const card = document.createElement("div");
@@ -53,8 +48,8 @@ function render() {
       <div class="card-details">
         <p>${place.description || ""}</p>
 
-        <p><strong>⏰ 營業時間：</strong>${place.opening_hours || "－"}</p>
-        <p><strong>🚇 交通方式：</strong>${place.transport || "－"}</p>
+        ${place.opening_hours ? `<p><strong>⏰ 營業時間：</strong>${place.opening_hours}</p>` : ""}
+        ${place.transport ? `<p><strong>🚇 交通方式：</strong>${place.transport}</p>` : ""}
 
         ${
           place.tips
@@ -71,7 +66,7 @@ function render() {
       </div>
     `;
 
-    // Accordion
+    // 收合 / 展開
     card.querySelector(".card-header").onclick = () => {
       document.querySelectorAll(".card.open").forEach(c => {
         if (c !== card) c.classList.remove("open");
@@ -89,36 +84,25 @@ function render() {
   });
 }
 
-/* =========================
-   Day 分頁
-========================= */
+/* Day 分頁 */
 document.querySelectorAll("#tabs button").forEach(btn => {
   btn.onclick = () => {
-    document.querySelectorAll("#tabs button").forEach(b =>
-      b.classList.remove("active")
-    );
+    document.querySelectorAll("#tabs button").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     currentDay = btn.dataset.day;
     render();
   };
 });
 
-/* =========================
-   類型篩選
-========================= */
+/* 類型篩選 */
 document.querySelectorAll("#filters button").forEach(btn => {
   btn.onclick = () => {
-    document.querySelectorAll("#filters button").forEach(b =>
-      b.classList.remove("active")
-    );
+    document.querySelectorAll("#filters button").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     currentType = btn.dataset.type;
     render();
   };
 });
 
-/* =========================
-   啟動
-========================= */
+/* 啟動 */
 loadData();
-
