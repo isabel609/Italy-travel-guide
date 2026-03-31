@@ -93,4 +93,65 @@ button.active {
   padding: 6px 10px;
   font-size: 14px;
 }
-/* ===== 主要版面 ===== */
+/* ===== 📱 手機優先閱讀優化 ===== */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px; /* ✅ 基準字變大 */
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  /* 清單區變成全寬 */
+  #list {
+    width: 100%;
+  }
+
+  /* 卡片整體放大 */
+  .card {
+    margin-bottom: 16px;
+  }
+
+  .card-header {
+    padding: 16px;
+  }
+
+  .card-header h3 {
+    font-size: 18px; /* ✅ 景點名稱變大 */
+  }
+
+  .card-type {
+    font-size: 14px;
+  }
+
+  .card-details {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6; /* ✅ 好讀關鍵 */
+  }
+
+  .card-details ul li {
+    margin-bottom: 6px;
+  }
+
+  /* 地圖按鈕變大、好按 */
+  .map-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 14px;
+  }
+
+  /* ✅ 如果你還留著 container / map，直接隱藏 */
+  #map {
+    display: none;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+}
+
