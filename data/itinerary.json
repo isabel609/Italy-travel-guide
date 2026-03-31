@@ -1,12 +1,21 @@
-[
-  {
-    "day": "day1",
-    "title": "Day 1｜市區文化",
-    "places": ["asakusa", "ramen"]
-  },
-  {
-    "day": "day2",
-    "title": "Day 2｜地標與夜景",
-    "places": ["skytree"]
-  }
-]
+{
+  "day": "day1",
+  "title": "Day 1｜市區散策",
+  "stops": [
+    {
+      "place": "asakusa"
+    },
+    {
+      "transport": "🚇 銀座線 淺草 → 上野（約 10 分鐘）"
+    },
+    {
+      "place": "ueno_zoo"
+    },
+    {
+      "transport": "🚶 步行 5 分鐘"
+    },
+    {
+      "place": "ramen"
+    }
+  ]
+}
