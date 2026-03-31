@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>東京旅遊手冊</title>
 
-  <!-- ✅ 一定要正確載入 -->
+  <!-- ✅ 一定要用 link -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ✅ 主容器 -->
+  <!-- ✅ 你的 6:19 / App 感容器 -->
   <div id="app">
 
     <h1>東京旅遊手冊</h1>
@@ -26,12 +26,12 @@
       <button data-type="restaurant">餐廳</button>
     </div>
 
-    <!-- ✅ JS 會塞卡片的地方，一定要存在 -->
+    <!-- 🔥 JS 唯一的輸出位置 -->
     <div id="list"></div>
 
   </div>
 
-  <!-- ✅ JS 一定要放在 body 最後 -->
+  <!-- ✅ 一定要用 script -->
   <script src="script.js"></script>
 </body>
 </html>
