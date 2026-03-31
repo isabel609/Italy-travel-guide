@@ -1,21 +1,12 @@
-{
-  "day": "day1",
-  "title": "Day 1｜市區散策",
-  "stops": [
-    {
-      "place": "asakusa"
-    },
-    {
-      "transport": "🚇 銀座線 淺草 → 上野（約 10 分鐘）"
-    },
-    {
-      "place": "ueno_zoo"
-    },
-    {
-      "transport": "🚶 步行 5 分鐘"
-    },
-    {
-      "place": "ramen"
-    }
-  ]
-}
+[
+  {
+    "day": "day1",
+    "title": "Day 1｜市區散策",
+    "stops": [
+      { "place": "asakusa" },
+      { "transport": "🚇 銀座線 淺草 → 上野（約 10 分鐘）" },
+      { "place": "ueno_zoo" }
+    ]
+  }
+]
+``
