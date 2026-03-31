@@ -74,11 +74,10 @@ function render() {
         card.classList.toggle("open");
       };
 
-      /* ✅ 地圖按鈕（不影響展開） */
-      card.querySelector(".map-btn").onclick = (e) => {
-        e.stopPropagation();
-        map.src = place.map_url + "&output=embed";
-      };
+     card.querySelector(".map-btn").onclick = (e) => {
+      e.stopPropagation();
+      window.open(place.map_url, "_blank");
+    };
 
       list.appendChild(card);
     });
