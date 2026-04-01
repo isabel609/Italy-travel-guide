@@ -41,7 +41,11 @@ function render() {
       <div class="card-header">
         <h3>${place.name}</h3>
         <span class="card-type">
-          ${place.type === "restaurant" ? "餐廳" : "景點"}
+          ${place.type === "restaurant" ? "餐廳" : 
+            place.type === "transportation"
+            ? "交通"
+            : "景點"
+          }
         </span>
       </div>
 
