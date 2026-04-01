@@ -4,6 +4,7 @@
     "name": "桃園機場第一航廈",
     "type": "transportation",
     "description": "23:55 桃園出發，C175班機",
+    "opening_hours": "24 小時",
     "tips": [
       "2.5小時前抵達",
     ],
@@ -13,7 +14,6 @@
     "id": "ramen",
     "name": "一蘭拉麵 上野店",
     "type": "restaurant",
-    "tags": ["拉麵"],
     "description": "單人友善拉麵。",
     "opening_hours": "24 小時",
     "transport": "JR 上野站步行 3 分鐘",
