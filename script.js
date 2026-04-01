@@ -28,7 +28,7 @@ function render() {
   const dayData = itineraries.find(d => d.day === currentDay);
   if (!dayData || !dayData.places) return;
 
-  dayData.places.forEach(placeId, index) => {
+  dayData.places.forEach(placeId => {
     const place = allPlaces.find(p => p.id === placeId);
     if (!place) return;
 
@@ -81,6 +81,8 @@ function render() {
     };
 
     list.appendChild(card);
+  });
+}
 
 /* Day 分頁 */
 document.querySelectorAll("#tabs button").forEach(btn => {
