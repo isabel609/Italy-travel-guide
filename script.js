@@ -1,13 +1,3 @@
-// ✅ 顯示層用：流程標註（僅在 UI 使用）
-const flowNotes = {
-  day1: {
-    0: "🚇 淺草 → 上野（銀座線，約 10 分鐘）",
-    1: "🚶 步行 5 分鐘"
-  },
-  day2: {
-    0: "🚇 新宿 → 澀谷（山手線，約 7 分鐘）"
-  }
-};
 const list = document.getElementById("list");
 
 let allPlaces = [];
@@ -91,24 +81,6 @@ function render() {
     };
 
     list.appendChild(card);
-
-/* ===================================================
-   ✅ 流程標註（只在「全部」分頁顯示）
-   ✅ 不屬於卡片、不影響資料結構
-=================================================== */
-if (
-  currentType === "all" &&          // ✅ 只在【全部】
-  flowNotes[currentDay] &&          // ✅ 這一天有定義
-  flowNotes[currentDay][index]      // ✅ 這個順序有標註
-) {
-  const note = document.createElement("div");
-  note.className = "timeline-note";
-  note.textContent = flowNotes[currentDay][index];
-  list.appendChild(note);
-}
-
-  });
-}
 
 /* Day 分頁 */
 document.querySelectorAll("#tabs button").forEach(btn => {
