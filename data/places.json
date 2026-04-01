@@ -1,17 +1,13 @@
 [
   {
-    "id": "asakusa",
-    "name": "桃園機場",
-    "type": "attraction",
-    "tags": ["文化", "拍照"],
-    "description": "東京最古老的佛寺。",
-    "opening_hours": "08:00 – 17:00",
-    "transport": "銀座線／淺草線「淺草站」步行 5 分鐘",
+    "id": "TaoyuanInternationalAirportTerminal1",
+    "name": "桃園機場第一航廈",
+    "type": "transportation",
+    "description": "23:55 桃園出發，C175班機 ",
     "tips": [
-      "早上人較少",
-      "雷門晚上很好拍"
+      "2.5小時前抵達",
     ],
-    "map_url": "https://www.google.com/maps?q=淺草寺"
+    "map_url": "https://maps.app.goo.gl/6RrBA3Vg3gzMm92A7"
   },
   {
     "id": "ramen",
