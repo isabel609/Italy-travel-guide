@@ -1,15 +1,25 @@
+/* =========================
+   基本設定
+========================= */
+
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 12px;
+  background: #f2f2f2;
 }
 
 h1 {
   text-align: center;
 }
 
-/* ===== 分頁與篩選 ===== */
-#tabs, #filters {
+
+/* =========================
+   分頁與篩選
+========================= */
+
+#tabs,
+#filters {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -30,38 +40,38 @@ button.active {
 }
 
 
-/* ✅ 預設細節是收起來的 */
-.card-details {
-  display: none;
+/* =========================
+   App 主容器（6:19 視覺）
+========================= */
+
+#app {
+  margin: 0 auto;
+  padding: 12px 16px;
+  max-width: 420px;
+  background: #ffffff;
+  min-height: 100vh;
 }
 
-/* ✅ 只有 .open 的卡片才展開 */
-.card.open .card-details {
-  display: block;
-}
 
-/* ===== 卡片整體外觀 ===== */
+/* =========================
+   卡片通用結構
+========================= */
+
 .card {
-  background: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  overflow: hidden; /* 很重要，讓收合乾淨 */
+  overflow: hidden;
 }
 
-/* 上半部：永遠顯示（基本資訊） */
+/* Header（永遠顯示） */
 .card-header {
   padding: 12px 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  background: #fafafa;
-}
-
-.card-header:hover {
-  background: #f0f0f0;
 }
 
 .card-header h3 {
@@ -71,20 +81,18 @@ button.active {
 
 .card-type {
   font-size: 12px;
-  color: #666;
 }
 
-/* 下半部：可收合的詳細資訊 */
+/* Details（可收合） */
 .card-details {
   padding: 12px 14px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(0,0,0,0.05);
   font-size: 14px;
-
-  display: none;        /* ✅ 預設收合 */
+  display: none;
 }
 
 .card.open .card-details {
-  display: block;       /* ✅ 展開 */
+  display: block;
 }
 
 /* 地圖按鈕 */
@@ -92,26 +100,83 @@ button.active {
   margin-top: 10px;
   padding: 6px 10px;
   font-size: 14px;
+  width: 100%;
 }
-/* ===== 📱 手機優先閱讀優化 ===== */
+
+
+/* =========================
+   🎨 文藝復興淡色系卡片分類
+========================= */
+
+/* 🏛 景點｜石材米色 */
+.card-attraction {
+  background: #fbf8f3;
+  border-color: #e6dccb;
+}
+
+.card-attraction .card-header {
+  background: #f7f2e8;
+}
+
+.card-attraction .card-header:hover {
+  background: #f1eadc;
+}
+
+.card-attraction .card-type {
+  color: #8d7b5a;
+}
+
+
+/* 🍝 餐廳｜陶土紅 */
+.card-restaurant {
+  background: #fdf3f1;
+  border-color: #e8cfc7;
+}
+
+.card-restaurant .card-header {
+  background: #f9e7e2;
+}
+
+.card-restaurant .card-header:hover {
+  background: #f2d8d1;
+}
+
+.card-restaurant .card-type {
+  color: #b65c4a;
+}
+
+
+/* 🚇 交通｜青綠石灰 */
+.card-transportation {
+  background: #f2f7f5;
+  border-color: #cfe1db;
+}
+
+.card-transportation .card-header {
+  background: #e9f2ef;
+}
+
+.card-transportation .card-header:hover {
+  background: #ddebe6;
+}
+
+.card-transportation .card-type {
+  color: #3f7f6f;
+}
+
+
+/* =========================
+   📱 手機優化（RWD）
+========================= */
+
 @media (max-width: 768px) {
 
   body {
-    font-size: 16px; /* ✅ 基準字變大 */
+    font-size: 16px;
   }
 
   h1 {
     font-size: 22px;
-    margin-bottom: 16px;
-  }
-
-  /* 清單區變成全寬 */
-  #list {
-    width: 100%;
-  }
-
-  /* 卡片整體放大 */
-  .card {
     margin-bottom: 16px;
   }
 
@@ -120,7 +185,7 @@ button.active {
   }
 
   .card-header h3 {
-    font-size: 18px; /* ✅ 景點名稱變大 */
+    font-size: 18px;
   }
 
   .card-type {
@@ -130,77 +195,20 @@ button.active {
   .card-details {
     padding: 16px;
     font-size: 16px;
-    line-height: 1.6; /* ✅ 好讀關鍵 */
+    line-height: 1.6;
   }
 
   .card-details ul li {
     margin-bottom: 6px;
   }
 
-  /* 地圖按鈕變大、好按 */
   .map-btn {
-    width: 100%;
     padding: 12px;
     font-size: 16px;
     margin-top: 14px;
   }
 
-  /* ✅ 如果你還留著 container / map，直接隱藏 */
   #map {
     display: none;
   }
-
-  #container {
-    flex-direction: column;
-  }
-}
-/* =========================
-   📱 6:19 手機閱讀容器
-========================= */
-
-body {
-  margin: 0;
-  background: #f2f2f2; /* 淡灰背景，襯托主內容 */
-}
-
-/* 主內容容器（核心） */
-#app {
-  margin: 0 auto;
-  padding: 12px 16px;
-
-  /* ✅ 限制最大寬度，製造「6:19」視覺效果 */
-  max-width: 420px;
-
-  background: #ffffff;
-  min-height: 100vh;
-}
-
-/* 手機再微調 */
-@media (max-width: 768px) {
-
-  #app {
-    padding-bottom: 24px; /* 底部滑動空間 */
-  }
-
-  h1 {
-    font-size: 22px;
-    margin-bottom: 16px;
-  }
-.transport {
-  text-align: center;
-  font-size: 14px;
-  color: #555;
-  padding: 8px 12px;
-  margin: 6px 0 14px;
-  background: #f1f1f1;
-  border-radius: 8px;
-}
-  .timeline-note {
-  margin: 8px 0 16px 40px;   /* 左縮排，讓它不是主角 */
-  font-size: 14px;
-  color: #666;
-  line-height: 1.4;
-  pointer-events: none;     /* ✅ 不可點 */
-}
-
 }
