@@ -35,7 +35,7 @@ function render() {
     if (currentType !== "all" && place.type !== currentType) return;
 
     const card = document.createElement("div");
-    card.className = "card";
+    card.className = `card card-${place.type}`;
 
     card.innerHTML = `
       <div class="card-header">
