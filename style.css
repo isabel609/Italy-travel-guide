@@ -152,15 +152,27 @@ button.active {
 
 .card-details {
   display: none; 
-  padding: 14px 16px;
+  padding: 12px 16px;       /* 縮小內距 */
   border-top: 1px dashed #dcd0ba;
   font-size: 15px;
-  line-height: 1.6;      /* 稍微縮小行高，讓文字更緊湊 */
+  line-height: 1.5;         /* 緊湊的行高 */
   background: rgba(255, 255, 255, 0.5);
   
-  /* --- 關鍵修改 --- */
-  white-space: pre-line; /* 識別 \n，但會刪除多餘的空格與縮進 */
-  text-align: justify;   /* 讓段落左右對齊，看起來更像古書排版 */
+  /* --- 強力修正空白 --- */
+  white-space: pre-line;    /* 識別 \n 並摺疊空格 */
+  margin: 0 !important;     /* 移除外距 */
+  min-height: 0;            /* 防止被設為 min-height: 100% 之類的錯誤 */
+  overflow: hidden;         /* 防止內容溢出產生的視覺空白 */
+}
+
+/* 關鍵：移除 description 內部可能存在的標籤外距 */
+.card-details p, 
+.card-details div, 
+.card-details br {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block;           /* 確保換行正常 */
+  content: "";              /* 防止某些瀏覽器插入偽元素 */
 }
 
 .card.open .card-details {
