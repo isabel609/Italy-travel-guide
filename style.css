@@ -143,10 +143,88 @@ button.active {
 .card-transportation .card-type { color: #4a7c72; }
 
 /* =========================
-   📱 手機優化
+   App 主容器調整
+   ========================= */
+
+#app {
+  margin: 0 auto;
+  padding: 16px; /* 稍微縮小內距，騰出更多空間 */
+  max-width: 500px; /* 稍微放寬上限，適應現代大螢幕手機 */
+  min-height: 100vh;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  /* 確保容器不會因為內容過多而切斷 */
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================
+   分頁與篩選（手機優化：換行與滾動）
+   ========================= */
+
+#tabs,
+#filters {
+  display: flex;
+  justify-content: flex-start; /* 改為靠左，方便橫向滑動或換行 */
+  flex-wrap: wrap; /* 重要：讓 13 天的按鈕可以自動換行 */
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 12px; /* 稍微縮小按鈕，讓一排能放更多天數 */
+  font-size: 14px;
+  border: 1.5px solid #c5b358;
+  background: #ffffff;
+  color: #5d4037;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap; /* 防止文字斷行 */
+}
+
+/* =========================
+   📱 手機深度優化 (Media Query)
    ========================= */
 
 @media (max-width: 768px) {
-  body { padding: 0; }
-  #app { padding: 16px; width: 100%; max-width: none; }
+  body { 
+    padding: 0; 
+    background-image: none; /* 手機端移除漸層減少視覺負擔 */
+    background-color: #f4f1ea;
+  }
+
+  #app { 
+    padding: 12px; 
+    width: 100%; 
+    max-width: none; 
+    box-shadow: none; /* 移除陰影，讓介面更乾淨 */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* 縮小標題字體 */
+    margin-top: 10px;
+  }
+
+  /* 針對 13 天按鈕過多的解決方案：橫向捲動 */
+  #tabs {
+    flex-wrap: nowrap; 
+    overflow-x: auto; /* 開啟橫向捲動 */
+    -webkit-overflow-scrolling: touch; /* iOS 順滑捲動 */
+    padding-bottom: 8px;
+    justify-content: flex-start;
+  }
+
+  #tabs::-webkit-scrollbar {
+    display: none; /* 隱藏捲軸，保持美觀 */
+  }
+
+  button {
+    flex: 0 0 auto; /* 防止按鈕被壓縮 */
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .card-header h3 {
+    font-size: 16px; /* 微調卡片標題大小 */
+  }
 }
