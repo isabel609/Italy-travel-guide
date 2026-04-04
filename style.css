@@ -155,10 +155,12 @@ button.active {
   padding: 14px 16px;
   border-top: 1px dashed #dcd0ba;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.6;      /* 稍微縮小行高，讓文字更緊湊 */
   background: rgba(255, 255, 255, 0.5);
-  /* --- 關鍵修改：讓 \n 產生換行效果 --- */
-  white-space: pre-wrap;
+  
+  /* --- 關鍵修改 --- */
+  white-space: pre-line; /* 識別 \n，但會刪除多餘的空格與縮進 */
+  text-align: justify;   /* 讓段落左右對齊，看起來更像古書排版 */
 }
 
 .card.open .card-details {
