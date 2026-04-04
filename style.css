@@ -134,6 +134,9 @@ button.active {
   margin: 0;
   font-size: 17px;
   font-weight: 700;
+  line-height: 1.4;      /* 調整行高，讓中英文擠在一起時比較美觀 */
+  /* --- 關鍵修改：讓標題支援 \n 換行 --- */
+  white-space: pre-wrap;
 }
 
 .card-type {
@@ -150,6 +153,8 @@ button.active {
   font-size: 15px;
   line-height: 1.7;
   background: rgba(255, 255, 255, 0.5);
+  /* --- 關鍵修改：讓 \n 產生換行效果 --- */
+  white-space: pre-wrap;
 }
 
 .card.open .card-details {
