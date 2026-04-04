@@ -2,11 +2,11 @@
   {
     "day": "day1",
     "title": "Day 1",
-    "places": ["taoyuaninternationalairportterminal1","romefiumicinoairport"]
+    "places": ["taoyuaninternationalairportterminal1"]
   },
   {
     "day": "day2",
     "title": "Day 2",
-    "places": ["skytree"]
+    "places": ["romefiumicinoairport"]
   }
 ]
