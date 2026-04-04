@@ -5,24 +5,25 @@
     "type": "transportation",
     "tags": ["交通"],
     "description": "23:55 桃園出發，C175班機",
-    "opening_hours": "24 小時",
-    "transport": "搭機場接送",
+    "transport": "搭詩婷牌機場接送",
     "tips": [
       "2.5小時前抵達"
     ],
     "map_url": "https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
   },
   {
-    "id": "ramen",
-    "name": "一蘭拉麵 上野店",
-    "type": "restaurant",
-    "tags": ["拉麵"],
-    "description": "單人友善拉麵。",
-    "opening_hours": "24 小時",
-    "transport": "JR 上野站步行 3 分鐘",
+    "id": "romefiumicinoairport",
+    "name": "羅馬法林明高機場 Aeroporto di Roma - Fiumicino Leonardo da Vinci",
+    "type": "transportation",
+    "tags": ["交通"],
+    "description": "1. 7:35會先在第三航廈落地，要再去第一航廈轉機去佛羅倫斯",
+    "2. 航空公司:Ita Airways 班機號碼:AZ1675 起飛時間:9:45",
     "tips": [
-      "宵夜時段排隊較短"
+    "確認行李標籤：在台灣辦理登機時，請確認行李標籤上寫的是「FLR」（佛羅倫斯機場代碼)",
+    "轉機時間：T3 → T1 步行約 10–15 分鐘，建議至少預留 45 分鐘以上",
+    "安檢：抵達羅馬後，跟著 Transfer/Connections 指示牌走，再次通過安檢才能進入 T1 登機區",
+    "登機口：佛羅倫斯航班通常在 T1 的 A 區，抵達後要查看航班資訊螢幕"
     ],
-    "map_url": "https://www.google.com/maps?q=一蘭拉麵+上野店"
+    "map_url": "https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
   }
 ]
