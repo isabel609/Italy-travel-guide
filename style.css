@@ -25,40 +25,49 @@ h1 {
 }
 
 /* =========================
-   分頁與篩選：多排並置中 (關鍵修改)
+   分頁與篩選：捲動與區隔優化
    ========================= */
 
-#tabs,
-#filters {
+/* 共通捲動容器設定 */
+#tabs, #filters {
   display: flex;
-  flex-wrap: wrap;         /* 允許 13 天按鈕自動換行 */
-  justify-content: center;   /* 讓按鈕在每一排都水平置中 */
-  gap: 8px;                /* 按鈕之間的間距 */
-  margin-bottom: 16px;
-  width: 100%;
+  overflow-x: auto;          /* 開啟橫向捲動 */
+  white-space: nowrap;       /* 防止按鈕換行 */
+  gap: 10px;
+  padding: 10px 4px;
+  -webkit-overflow-scrolling: touch; /* iOS 順滑捲動 */
 }
 
-button {
-  padding: 8px 12px;
-  border: 1.5px solid #c5b358;
-  background: #ffffff;
-  color: #5d4037;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: bold;
-  font-size: 14px;
+/* 隱藏捲軸（讓介面乾淨） */
+#tabs::-webkit-scrollbar, 
+#filters::-webkit-scrollbar {
+  display: none;
 }
 
-/* 針對天數按鈕固定最小寬度，排版更整齊 */
+/* --- 天數分頁區塊 (區隔化) --- */
+#tabs {
+  background: rgba(93, 64, 55, 0.05); /* 淡淡的褐色底，做出區隔 */
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
 #tabs button {
-  min-width: 65px;
+  flex: 0 0 auto;
+  min-width: 70px;
+  background: #ffffff;
 }
 
-button.active {
-  background: #5d4037;
-  color: #f4f1ea;
-  border-color: #3e2f28;
+/* --- 分類分頁區塊 --- */
+#filters {
+  margin-bottom: 20px;
+  justify-content: center; /* 分類按鈕較少，通常可以置中 */
+}
+
+#filters button {
+  flex: 0 0 auto;
+  border-radius: 20px;     /* 分類按鈕改為橢圓形，跟天數的方形做出形狀區隔 */
+  padding: 6px 15px;
 }
 
 /* =========================
@@ -166,17 +175,18 @@ button.active {
     box-shadow: none;
   }
 
-  h1 { font-size: 1.4rem; }
-
+  /* 確保手機上捲動時左右不會貼邊 */
   #tabs, #filters {
-    gap: 6px; /* 手機上按鈕間距稍微縮小 */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
   }
 
-  #tabs button {
-    min-width: 60px; /* 手機上按鈕寬度微調 */
-    font-size: 13px;
-    padding: 6px 8px;
-  }
+  h1 { font-size: 1.4rem; margin-bottom: 15px; }
   
-  .card-header h3 { font-size: 16px; }
+  button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
 }
