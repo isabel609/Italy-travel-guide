@@ -11,17 +11,32 @@
   },
   {
   "id":"romefiumicinoairport",
-  "name":"羅馬法林明高機場\nFiumicino Leonardo da Vinci",
+  "name":"羅馬法林明高機場\nRome Fiumicino",
   "type":"transportation",
   "tags":["交通"],
   "description":"7:35會先在第三航廈落地，要再去第一航廈轉機去佛羅倫斯",
   "tips":["轉機時間：T3 → T1 步行約 10–15 分鐘，建議至少預留 45 分鐘以上",
     "安檢：抵達羅馬後，跟著 Transfer/Connections 指示牌走，再次通過安檢才能進入 T1 登機區",
     "登機口：佛羅倫斯航班通常在 T1 的 A 區，抵達後要看航班資訊螢幕",
-    "航空公司:Ita Airways",
-    "班機號碼:AZ1675",
-    "起飛時間:9:45"
+    "航空公司 :Ita Airways",
+    "班機號碼 : AZ1675",
+    "起飛時間 : 9:45"
   ],
   "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
+  }
+  {
+  "id":"florenceperetolaairport",
+  "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"10:40落地",
+  "tips":["前往市區交通 : 搭計程車CP值最高，有大行李不適合搭路面電車，機場接駁巴士(約€24) 又跟計程車價格差不多",
+    "計程車站 : 出關後，向右轉，朝著計程車排隊區走，找7人座的計程車",
+    "費用 : 4人一台約€36，€30 (基本車資為固定費率，不論大小車) + €4.8 (每件大行李會額外收約 €1.20) + €1.2 (第4人加收費用)，但搭車前還是要問一下價格",
+    "付款 : 通常可以刷信用卡",
+    "目的地 : 告訴司機要去Borgo Santi Apostoli(最靠近住宿的計程車下車點)",
+    "行李寄放 : 問飯店提早到能不能先寄放行李，若不能，住宿附近可以預約寄放點 (透過 Radical Storage 或 Bounce App 預約)，建議預約Via dei Tornabuoni 區的，比較安全，4 件行李 3 小時約 €20 - €24" 
+  ],
+  "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
   }
 ]
