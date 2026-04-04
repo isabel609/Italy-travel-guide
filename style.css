@@ -9,7 +9,7 @@ body {
   padding: 12px;
   background-color: #f4f1ea; /* 古老羊皮紙色 */
   background-image: linear-gradient(135deg, #f4f1ea 25%, #ede7da 100%);
-  color: #3e2f28; /* 深焦茶色，比純黑更有質感 */
+  color: #3e2f28; /* 深焦茶色 */
 }
 
 h1 {
@@ -18,13 +18,13 @@ h1 {
   letter-spacing: 2px;
   color: #5d4037;
   border-bottom: 2px solid #d4af37; /* 佛羅倫斯金邊框 */
-  display: inline-block;
+  display: block;
   width: 100%;
   padding-bottom: 10px;
 }
 
 /* =========================
-   分頁與篩選：古銅與石材感
+   分頁與篩選
    ========================= */
 
 #tabs,
@@ -37,23 +37,17 @@ h1 {
 
 button {
   padding: 10px 16px;
-  border: 1.5px solid #c5b358; /* 金屬古銅色 */
+  border: 1.5px solid #c5b358;
   background: #ffffff;
   color: #5d4037;
-  border-radius: 4px; /* 文藝復興時期偏好規整的幾何 */
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: bold;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
-}
-
-button:hover {
-  background: #fdfaf1;
-  border-color: #d4af37;
 }
 
 button.active {
-  background: #5d4037; /* 深色背景強調 */
+  background: #5d4037;
   color: #f4f1ea;
   border-color: #3e2f28;
 }
@@ -69,12 +63,10 @@ button.active {
   background: #ffffff;
   min-height: 100vh;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  border-left: 1px solid #e0d7c6;
-  border-right: 1px solid #e0d7c6;
 }
 
 /* =========================
-   卡片通用結構：繪畫畫框感
+   卡片通用結構（含收合邏輯）
    ========================= */
 
 .card {
@@ -86,16 +78,13 @@ button.active {
   transition: transform 0.2s ease;
 }
 
-.card:hover {
-  transform: translateY(-2px);
-}
-
 .card-header {
   padding: 14px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  user-select: none;
 }
 
 .card-header h3 {
@@ -107,16 +96,22 @@ button.active {
 .card-type {
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 1px;
   font-weight: bold;
 }
 
+/* 預設隱藏詳情內容 */
 .card-details {
+  display: none; 
   padding: 14px 16px;
   border-top: 1px dashed #dcd0ba;
   font-size: 15px;
   line-height: 1.7;
   background: rgba(255, 255, 255, 0.5);
+}
+
+/* 當卡片被加上 .open 類別時才顯示 */
+.card.open .card-details {
+  display: block;
 }
 
 /* 按鈕：地圖引導 */
@@ -128,76 +123,30 @@ button.active {
   border: none;
   border-radius: 4px;
   width: 100%;
-  font-family: inherit;
+  cursor: pointer;
 }
 
 /* =========================
    🎨 文藝復興主題配色分類
    ========================= */
 
-/* 🏛 景點｜佛羅倫斯金 (Florence Gold) */
-.card-attraction {
-  background: #fffcf2; /* 淡淡的金輝 */
-  border-color: #d4af37; 
-}
+.card-attraction { background: #fffcf2; border-color: #d4af37; }
+.card-attraction .card-header { background: #fdf5d2; }
+.card-attraction .card-type { color: #a67c00; }
 
-.card-attraction .card-header {
-  background: #fdf5d2;
-}
+.card-restaurant { background: #fef8f6; border-color: #d68a73; }
+.card-restaurant .card-header { background: #fcece8; }
+.card-restaurant .card-type { color: #b34d32; }
 
-.card-attraction .card-header:hover {
-  background: #f9eca5;
-}
-
-.card-attraction .card-type {
-  color: #a67c00;
-}
-
-/* 🍝 餐廳｜托斯卡尼陶土紅 (Tuscany Terra Cotta) */
-.card-restaurant {
-  background: #fef8f6; /* 溫暖的陶土粉 */
-  border-color: #d68a73;
-}
-
-.card-restaurant .card-header {
-  background: #fcece8;
-}
-
-.card-restaurant .card-header:hover {
-  background: #f7dcd4;
-}
-
-.card-restaurant .card-type {
-  color: #b34d32;
-}
-
-/* 🚇 交通｜波提切利青 (Botticelli Teal) */
-.card-transportation {
-  background: #f4f9f8; /* 濕壁畫中的湖水綠 */
-  border-color: #a3c4bc;
-}
-
-.card-transportation .card-header {
-  background: #e9f3f1;
-}
-
-.card-transportation .card-header:hover {
-  background: #dae8e5;
-}
-
-.card-transportation .card-type {
-  color: #4a7c72;
-}
+.card-transportation { background: #f4f9f8; border-color: #a3c4bc; }
+.card-transportation .card-header { background: #e9f3f1; }
+.card-transportation .card-type { color: #4a7c72; }
 
 /* =========================
    📱 手機優化
    ========================= */
 
 @media (max-width: 768px) {
-  body {
-    padding: 0;
-  }
-  #app {
-    padding: 16px;
-  }
+  body { padding: 0; }
+  #app { padding: 16px; width: 100%; max-width: none; }
 }
