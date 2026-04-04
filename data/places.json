@@ -1,28 +1,21 @@
 [
   {
-    "id": "taoyuaninternationalairportterminal1",
+    "id":"taoyuaninternationalairportterminal1",
     "name":"桃園機場第一航廈",
-    "type": "transportation",
-    "tags": ["交通"],
+    "type":"transportation",
+    "tags":["交通"],
     "description":"23:55 桃園出發，C175班機",
-    "transport": "搭詩婷牌機場接送",
-    "tips": [
-      "2.5小時前抵達",
-      "辦理登機時，要確認行李標籤上寫的是「FLR」（佛羅倫斯機場代碼)，才有直掛"
-    ],
-    "map_url": "https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
+    "transport":"搭詩婷牌機場接送",
+    "tips":["2.5小時前抵達","辦理登機時，要確認行李標籤上寫的是「FLR」（佛羅倫斯機場代碼)，才有直掛"],
+    "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
   },
   {
-  "id": "romefiumicinoairport",
+  "id":"romefiumicinoairport",
   "name":"羅馬法林明高機場\nFiumicino Leonardo da Vinci",
-  "type": "transportation",
-  "tags": ["交通"],
+  "type":"transportation",
+  "tags":["交通"],
   "description":"1.7:35會先在第三航廈落地，要再去第一航廈轉機去佛羅倫斯\n2.航空公司:Ita Airways 班機號碼:AZ1675 起飛時間:9:45",
-  "tips": [
-    "轉機時間：T3 → T1 步行約 10–15 分鐘，建議至少預留 45 分鐘以上",
-    "安檢：抵達羅馬後，跟著 Transfer/Connections 指示牌走，再次通過安檢才能進入 T1 登機區",
-    "登機口：佛羅倫斯航班通常在 T1 的 A 區，抵達後要看航班資訊螢幕"
-  ],
-  "map_url": "https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
+  "tips":["轉機時間：T3 → T1 步行約 10–15 分鐘，建議至少預留 45 分鐘以上","安檢：抵達羅馬後，跟著 Transfer/Connections 指示牌走，再次通過安檢才能進入 T1 登機區","登機口：佛羅倫斯航班通常在 T1 的 A 區，抵達後要看航班資訊螢幕"],
+  "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
   }
 ]
