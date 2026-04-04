@@ -157,12 +157,6 @@ button.active {
   font-size: 15px;
   line-height: 1.5;         /* 緊湊的行高 */
   background: rgba(255, 255, 255, 0.5);
-  
-  /* --- 強力修正空白 --- */
-  white-space: pre-line;    /* 識別 \n 並摺疊空格 */
-  margin: 0 !important;     /* 移除外距 */
-  min-height: 0;            /* 防止被設為 min-height: 100% 之類的錯誤 */
-  overflow: hidden;         /* 防止內容溢出產生的視覺空白 */
 }
 
 /* 關鍵：移除 description 內部可能存在的標籤外距 */
