@@ -24,50 +24,73 @@ h1 {
   margin-top: 10px;
 }
 
-/* =========================
-   分頁與篩選：捲動與區隔優化
-   ========================= */
+/* ============================================================
+   分頁與篩選：捲動、區隔與去藍化 (完整替換區塊)
+   ============================================================ */
 
-/* 共通捲動容器設定 */
-#tabs, #filters {
-  display: flex;
-  overflow-x: auto;          /* 開啟橫向捲動 */
-  white-space: nowrap;       /* 防止按鈕換行 */
-  gap: 10px;
-  padding: 10px 4px;
-  -webkit-overflow-scrolling: touch; /* iOS 順滑捲動 */
+/* 1. 基礎按鈕設定：徹底去藍化 */
+button {
+  padding: 8px 16px;
+  border: 1.5px solid #c5b358; /* 佛羅倫斯金 */
+  background: #ffffff;
+  color: #3e2f28;             /* 深焦茶色，取代原本的藍色 */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  font-family: "Georgia", "serif", "Noto Serif TC";
+  font-size: 14px;
+  outline: none;              /* 移除點擊時的藍色外框 */
+  -webkit-tap-highlight-color: transparent; /* 移除手機點擊時的藍色高亮 */
 }
 
-/* 隱藏捲軸（讓介面乾淨） */
-#tabs::-webkit-scrollbar, 
-#filters::-webkit-scrollbar {
-  display: none;
+/* 啟動狀態：深色底、淺色字 */
+button.active {
+  background: #5d4037;        /* 深褐色 */
+  color: #f4f1ea;             /* 羊皮紙白 */
+  border-color: #3e2f28;
 }
 
-/* --- 天數分頁區塊 (區隔化) --- */
+/* 2. 天數分頁：橫向捲動 + 區隔底色 */
 #tabs {
-  background: rgba(93, 64, 55, 0.05); /* 淡淡的褐色底，做出區隔 */
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 12px 10px;
+  background: rgba(93, 64, 55, 0.05); /* 極淡褐色背景，做出層次 */
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   border: 1px solid rgba(212, 175, 55, 0.2);
+  -webkit-overflow-scrolling: touch;
 }
 
 #tabs button {
   flex: 0 0 auto;
   min-width: 70px;
-  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* --- 分類分頁區塊 --- */
+/* 3. 分類分頁：橫向捲動 + 橢圓形狀 */
 #filters {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 8px 4px;
   margin-bottom: 20px;
-  justify-content: center; /* 分類按鈕較少，通常可以置中 */
+  justify-content: center; /* 項目少時自動置中 */
 }
 
 #filters button {
   flex: 0 0 auto;
-  border-radius: 20px;     /* 分類按鈕改為橢圓形，跟天數的方形做出形狀區隔 */
-  padding: 6px 15px;
+  border-radius: 20px;     /* 橢圓形，與天數方形做出視覺區隔 */
+}
+
+/* 隱藏捲軸 */
+#tabs::-webkit-scrollbar, 
+#filters::-webkit-scrollbar {
+  display: none;
 }
 
 /* =========================
@@ -166,27 +189,37 @@ h1 {
    ========================= */
 
 @media (max-width: 768px) {
-  body { padding: 0; }
+  body { 
+    padding: 0; 
+  }
   
   #app { 
     padding: 12px; 
     width: 100%; 
     max-width: none; 
     box-shadow: none;
+    border-radius: 0;
   }
 
-  /* 確保手機上捲動時左右不會貼邊 */
-  #tabs, #filters {
+  h1 { 
+    font-size: 1.4rem; 
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* 修正手機上分類按鈕太多時的對齊 */
+  #filters {
+    justify-content: flex-start; /* 手機上統一靠左捲動，防止切斷 */
     padding-left: 10px;
-    padding-right: 10px;
-    margin-left: -5px;
-    margin-right: -5px;
   }
-
-  h1 { font-size: 1.4rem; margin-bottom: 15px; }
   
   button {
     font-size: 13px;
     padding: 8px 12px;
+  }
+
+  /* 調整卡片在手機上的間距 */
+  .card {
+    margin-bottom: 14px;
   }
 }
