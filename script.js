@@ -37,17 +37,20 @@ function render() {
     const card = document.createElement("div");
     card.className = `card card-${place.type}`;
 
-    card.innerHTML = `
-      <div class="card-header">
-        <h3>${place.name}</h3>
-        <span class="card-type">
-          ${place.type === "restaurant" ? "餐廳" : 
-            place.type === "transportation"
-            ? "交通"
-            : "景點"
-          }
-        </span>
-      </div>
+    // 先處理類別名稱的邏輯，避免在模板字串中寫太長的判斷
+const typeText = place.type === "restaurant" ? "餐廳" : (place.type === "transportation" ? "交通" : "景點");
+
+// 採用「緊湊型串接」，確保標籤與內容之間沒有任何多餘的換行與空白
+card.innerHTML = 
+  `<div class="card-header">` +
+    `<h3>${place.name}</h3>` +
+    `<span class="card-type">${typeText}</span>` +
+  `</div>` +
+  `<div class="card-details">` +
+    `${place.description}` + 
+    (place.tips && place.tips.length > 0 ? `<br><br><strong>💡 小撇步：</strong><br>${place.tips.join('<br>')}` : '') +
+    (place.map_url ? `<button class="map-btn" onclick="window.open('${place.map_url}', '_blank')">📍 查看地圖導引</button>` : '') +
+  `</div>`;
 
       <div class="card-details">
         <p>${place.description || ""}</p>
