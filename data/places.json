@@ -85,15 +85,14 @@
   "opening_hours":"10:00–23:00",
   "tips":["靠近火車站" , "火車站右側"],
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
-  }
+  },
   {
-  "id":"garbopizzeria",
-  "name":"Garbo Pizzeria",
-  "type":"restaurant",
-  "tags":["披薩"],
-  "description":"有各種口味的披薩店，價格幾乎低於€15",
-  "opening_hours":"10:00–23:00",
-  "tips":["靠近火車站" , "火車站右側"],
+  "id":"borgoapartment",
+  "name":"Borgo Apartment by Mamo Florence",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"florence住宿",
+  "tips":["check in 時間: 15:00-24:00" , "退房時間: 6:00-10:00"],
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
   }
 ]
