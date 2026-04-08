@@ -39,19 +39,51 @@
       "車程 : 20-25分鐘",
       "班次 : 20-30分鐘一班",
       "費用 : 單程€6，可以在車上或機場內買票",
-      "目的地 : 在Via Santa Caterina da Siena / Piazza dell'Unita Italiana下車，走路8-10分鐘到住宿",
-    "行李寄放 : 問飯店提早到能不能先寄放行李，若不能，住宿附近可以預約寄放點 (透過 Radical Storage預約)，建議預約Piazza Ognissanti附近，比較安全也離住宿點近，4 件行李 3 小時約 €20 - €24" 
+      "目的地 : 在Via Santa Caterina da Siena / Piazza dell'Unita Italiana下車，走路8-10分鐘到住宿；或是坐到終點站Firenze Santa Maria Novella",
+    "行李寄放 : 問飯店提早到能不能先寄放行李，若不能，住宿或車站附近可以預約寄放點 (透過 Radical Storage預約)，若在住宿附近下車，建議預約Piazza Ognissanti附近，比較安全也離住宿點近，4 件行李 3 小時約 €20 - €24" 
   ],
   "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
   },
   {
   "id":"trattoriacontadino",
-  "name":"Trattoria II Contadino",
+  "name":"Trattoria Il Contadino",
   "type":"restaurant",
   "tags":["義大利麵"],
   "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
   "opening_hours":"12:00-15:00 , 18:30-22:30",
-  "tips":["靠近住宿"],
+  "tips":["靠近住宿",
+  "火車站左側"],
   "map_url":"https://maps.app.goo.gl/DzZh3i5SdB8wdcRf8"
-  }
+  },
+  {
+  "id":"trattoriadagiorgio",
+  "name":"Trattoria da Giorgio",
+  "type":"restaurant",
+  "tags":["義大利麵"],
+  "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€20",
+  "opening_hours":"12:00–14:30 , 19:00–22:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/8PrkFYHS2DR1aKhf8"
+  },
+  {
+  "id":"paninomondiale",
+  "name":"Panino Mondiale - Specialità Lampredotto",
+  "type":"restaurant",
+  "tags":["三明治"],
+  "description":"有各種口味的三明治小販，價格介於€5-€7",
+  "opening_hours":"10:30–02:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/ZQPfprSqsXa9aiXB8"
+  },
+  {
+  "id":"garbopizzeria",
+  "name":"Garbo Pizzeria",
+  "type":"restaurant",
+  "tags":["披薩"],
+  "description":"有各種口味的披薩店，價格幾乎低於€15",
+  "opening_hours":"10:00–23:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
 ]
