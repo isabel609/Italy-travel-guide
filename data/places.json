@@ -49,7 +49,7 @@
   "name":"Trattoria Il Contadino",
   "type":"restaurant",
   "tags":["義大利麵"],
-  "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
+  "description":"義大利麵小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
   "opening_hours":"12:00-15:00 , 18:30-22:30",
   "tips":["靠近住宿",
   "火車站左側"],
@@ -60,7 +60,7 @@
   "name":"Trattoria da Giorgio",
   "type":"restaurant",
   "tags":["義大利麵"],
-  "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€20",
+  "description":"義大利麵小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€20",
   "opening_hours":"12:00–14:30 , 19:00–22:00",
   "tips":["靠近住宿",
   "火車站左側"],
@@ -76,6 +76,16 @@
   "tips":["靠近火車站" , "火車站右側"],
   "map_url":"https://maps.app.goo.gl/ZQPfprSqsXa9aiXB8"
   },
+  {
+  "id":"garbopizzeria",
+  "name":"Garbo Pizzeria",
+  "type":"restaurant",
+  "tags":["披薩"],
+  "description":"有各種口味的披薩店，價格幾乎低於€15",
+  "opening_hours":"10:00–23:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  }
   {
   "id":"garbopizzeria",
   "name":"Garbo Pizzeria",
