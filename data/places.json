@@ -50,7 +50,7 @@
   "type":"restaurant",
   "tags":["義大利麵"],
   "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
-  "opening hours":"12:00-15:00 , 18:30-22:30",
+  "opening_hours":"12:00-15:00 , 18:30-22:30",
   "tips":["靠近住宿"],
   "map_url":"https://maps.app.goo.gl/DzZh3i5SdB8wdcRf8"
   }
