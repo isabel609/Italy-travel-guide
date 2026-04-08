@@ -43,5 +43,15 @@
     "行李寄放 : 問飯店提早到能不能先寄放行李，若不能，住宿附近可以預約寄放點 (透過 Radical Storage預約)，建議預約Piazza Ognissanti附近，比較安全也離住宿點近，4 件行李 3 小時約 €20 - €24" 
   ],
   "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
+  },
+  {
+  "id":"trattoriacontadino",
+  "name":"Trattoria II Contadino",
+  "type":"restaurant",
+  "tags":["義大利麵"],
+  "description":"小餐館，有fix price menu (套餐，含主食+副餐+水+飲料或酒)，價格介於€10-€15",
+  "opening hours":"12:00-15:00 , 18:30-22:30",
+  "tips":["靠近住宿"],
+  "map_url":"https://maps.app.goo.gl/DzZh3i5SdB8wdcRf8"
   }
 ]
