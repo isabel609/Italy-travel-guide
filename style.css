@@ -191,6 +191,12 @@ button.active {
 .card-transportation .card-header { background: #e9f3f1; }
 .card-transportation .card-type { color: #4a7c72; }
 
+
+.card-accommodation { background: #fbf7f2; border-color: #8c3b3b; }
+.card-accommodation .card-header { background: #f1e3dc; }
+.card-accommodation .card-type { color: #5a6b3f; }
+
+
 /* =========================
    📱 手機深度優化
    ========================= */
