@@ -94,5 +94,35 @@
   "description":"florence住宿",
   "tips":["check in 時間: 15:00-24:00" , "退房時間: 6:00-10:00"],
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
+  {
+  "id":"firenzesantamarianovella",
+  "name":"Firenze Santa Maria Novella",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"坐直達車到verona火車站；或也可以選搭區間車到Firenze Campo di Marte，再轉高速火車前往Verona火車站",
+  "tips":["若要直達，可以搭16:36的，1h32min到，一張票約1262 NTD",
+  "當天用trenitalia官方APP買票，就不用打票，到發車時間會自動生效，直接上車，查票的時候就給他看app，避免被警察罰錢(很會抓觀光客!!)",
+  "10-20分鐘就有一班區間車",
+  "車程約8~12分鐘",
+  "要在Firenze Campo di Marte預留至少20分鐘轉車時間"],
+  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
+  }
+  {
+  "id":"firenzecampodimarte",
+  "name":"Firenze Campo di Marte",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"轉高速火車前往Verona火車站",
+  "tips":["提前用trenitalia官方APP買票，可以選super economy (最便宜，但不能改票) 跟Economy(可以改一次票)",
+  "可以由一個人買，但每張票都要填寫乘客姓名，要跟護照拼音對的上，查票時給他一次看所有人的票或截圖電子票給其他人"
+  "可以買15:39的，2h 29min到，一張票約1321 NTD",
+  "或16:39的，2h 19min到，一張票約2443 NTD",
+  "或16:56，2h 39min到，一張票約1351 NTD",
+  "不用打票，上車等查票即可",
+  "火車票只適用指定時間跟車次，錯過就沒有了",
+  "高速火車月臺通常出發前10~15分鐘才會在電子看板或app顯示",
+  "要坐對車廂 (carrozza)跟座位號碼 (Posto)"],
+  "map_url":"https://maps.app.goo.gl/xGfkjyDkQpvFtWEV9"
   }
 ]
