@@ -5,7 +5,6 @@
     "type":"transportation",
     "tags":["交通"],
     "description":"23:55 桃園出發，C175班機",
-    "transport":"搭詩婷牌機場接送",
     "tips":["2.5小時前抵達","辦理登機時，要確認行李標籤上寫的是「FLR」（佛羅倫斯機場代碼)，才有直掛"],
     "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
   },
@@ -100,29 +99,36 @@
   "name":"Firenze Santa Maria Novella",
   "type":"transportation",
   "tags":["交通"],
-  "description":"坐直達車到verona火車站；或也可以選搭區間車到Firenze Campo di Marte，再轉高速火車前往Verona火車站",
-  "tips":["若要直達，可以搭16:36的，1h32min到，一張票約1262 NTD",
-  "當天用trenitalia官方APP買票，就不用打票，到發車時間會自動生效，直接上車，查票的時候就給他看app，避免被警察罰錢(很會抓觀光客!!)",
-  "10-20分鐘就有一班區間車",
-  "車程約8~12分鐘",
-  "要在Firenze Campo di Marte預留至少20分鐘轉車時間"],
-  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
-  }
-  {
-  "id":"firenzecampodimarte",
-  "name":"Firenze Campo di Marte",
-  "type":"transportation",
-  "tags":["交通"],
-  "description":"轉高速火車前往Verona火車站",
-  "tips":["提前用trenitalia官方APP買票，可以選super economy (最便宜，但不能改票) 跟Economy(可以改一次票)",
-  "可以由一個人買，但每張票都要填寫乘客姓名，要跟護照拼音對的上，查票時給他一次看所有人的票或截圖電子票給其他人"
-  "可以買15:39的，2h 29min到，一張票約1321 NTD",
-  "或16:39的，2h 19min到，一張票約2443 NTD",
-  "或16:56，2h 39min到，一張票約1351 NTD",
+  "description":"坐高速火車到verona火車站",
+  "tips":["可以搭16:36的frecciarossa 8520直達車，路程1h 32min，18:08到，一張票約1262 NTD",
+  "提前用trenitalia官方APP買票，可以選super economy (最便宜，但不能改票) 跟Economy(可以改一次票)",
+  "可以由一個人買，但每張票都要填寫乘客姓名，要跟護照拼音對的上，查票時給他一次看所有人的票或截圖電子票給其他人",
   "不用打票，上車等查票即可",
   "火車票只適用指定時間跟車次，錯過就沒有了",
   "高速火車月臺通常出發前10~15分鐘才會在電子看板或app顯示",
-  "要坐對車廂 (carrozza)跟座位號碼 (Posto)"],
-  "map_url":"https://maps.app.goo.gl/xGfkjyDkQpvFtWEV9"
+  "要坐對車廂 (carrozza)跟座位號碼 (Posto)"
+  ],
+  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
+  },
+  {
+  "id":"veronaportanuova",
+  "name":"Verona Porta Nuova",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"verona火車站",
+  "tips":["走路15分鐘去verona住宿check-in"
+  ],
+  "map_url":"https://maps.app.goo.gl/SqmLKjpq67DUeTuY7"
+  },
+  {
+  "id":"piccoloatticoportanuova",
+  "name":"Piccolo Attico Porta Nuova",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"verona住宿",
+  "tips":["check in 時間: 15:00-18:00" , "退房時間: 8:00-10:00",
+    "已跟住宿方確認可以18:30 check-in，希望火車準時嗚嗚"    
+  ],
+  "map_url":"https://www.google.com/maps/place/Piccolo+Attico+Porta+Nuova+-+Two-Bedroom+Apartment/@45.4350319,10.9847699,16z/data=!4m10!3m9!1s0x477f5f439b19cdc7:0x56c912ee8c8a873e!5m2!4m1!1i2!8m2!3d45.4350319!4d10.9899197!16s%2Fg%2F11mky0wb0n!17BQ0FF?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
   }
 ]
