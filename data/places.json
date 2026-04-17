@@ -130,5 +130,62 @@
     "已跟住宿方確認可以18:30 check-in，希望火車準時嗚嗚"    
   ],
   "map_url":"https://www.google.com/maps/place/Piccolo+Attico+Porta+Nuova+-+Two-Bedroom+Apartment/@45.4350319,10.9847699,16z/data=!4m10!3m9!1s0x477f5f439b19cdc7:0x56c912ee8c8a873e!5m2!4m1!1i2!8m2!3d45.4350319!4d10.9899197!16s%2Fg%2F11mky0wb0n!17BQ0FF?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+  "id":"iat",
+  "name":"IAT Verona Tourist Information Office",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"Verona旅遊資訊處，可以買verona pass",
+  "opening_hours":"09:00–18:00",
+  "tips":["verona pass除了在IAT購買，也可以在有配合的博物館或教堂售票處（部分景點如茱麗葉故居、朗貝爾蒂塔除外）購買",
+    "24 小時券：約 €27",
+    "一卡一景點： 每個涵蓋的景點（博物館、教堂、歷史遺跡）只能憑卡進入一次",
+    "快速通關： 直接前往入口處的讀卡機或專屬通道感應卡片即可，多數主要景點享有免排隊 (Skip-the-line) 的待遇，能大幅提升走訪效率。",
+    "可免費且無限次搭乘維羅納市內的 ATV (Azienda Trasporti Verona) 市區公車。",
+    "每次上公車時，務必將卡片靠在車上的讀卡機進行感應 (Validate)，以免視同逃票。",
+    "茱麗葉故居 (Casa di Giulietta) 強制預約： 雖然持卡可免費參觀，但因人潮極為擁擠，必須事先在官網預約入場時段。若未預約，即使持有實體卡也無法進入。"
+  ],
+  "map_url":"https://maps.app.goo.gl/MoPjv3EFjgNVJVqS7"
+  },
+  {
+  "id":"osteriamiola",
+  "name":"Osteria Miola",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、牛排之類的，價格落在€13~€24",
+  "opening_hours":"12:00-14:30 , 19:00-22:30",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/Yfm5vaBpTzG73hht7"
+  },
+  {
+  "id":"istanbuldonerkebab",
+  "name":"Istanbul Doner Kebab",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"中東烤肉店，價格落在€2.5~€10",
+  "opening_hours":"11:00-01:30",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/z4bHLyZRamMPNXei6"
+  },
+  {
+  "id":"wolonristorantecinese",
+  "name":"Wolon Ristorante Cinese",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"中菜店，評價不錯，有台灣人認證好吃。一道菜價格落在300台幣",
+  "opening_hours":"11:30-15:00 , 18:30-23:00",
+  "tips":["住宿往競技場方向走，跟住宿同側邊"],
+  "map_url":"https://maps.app.goo.gl/a45R5H16aztnPago7"
+  },
+  {
+  "id":"midwest25",
+  "name":"Midwest 25",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"速食店。一份落在€10~€20",
+  "opening_hours":"12:00-15:00 , 19:00-23:00",
+  "tips":["住宿往競技場方向走，跟住宿同側邊"],
+  "map_url":"https://maps.app.goo.gl/iumYjm87xaXMCjuf9"
   }
 ]
