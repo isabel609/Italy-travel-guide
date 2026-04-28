@@ -43,8 +43,9 @@ function render() {
         <span class="card-type">
           ${place.type === "restaurant" ? "餐廳" : 
             place.type === "transportation" ? "交通" :
-            place.type === "attraction" ? "景點" 
-            : "住宿"
+            place.type === "attraction" ? "景點" :
+            place.type === "accommodation" ? "住宿"
+            : "店鋪"
           }
         </span>
       </div>
