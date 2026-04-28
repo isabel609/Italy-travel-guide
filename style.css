@@ -192,10 +192,14 @@ button.active {
 .card-transportation .card-type { color: #4a7c72; }
 
 
-.card-accommodation { background: #fbf7f2; border-color: #8c3b3b; }
-.card-accommodation .card-header { background: #f1e3dc; }
-.card-accommodation .card-type { color: #5a6b3f; }
+.card-accommodation { background: #f2f4f7; border-color: #7b8fa6; }
+.card-accommodation .card-header { background: #e4e9f0; }
+.card-accommodation .card-type { color: #4f647d; }
 
+
+.card-shop { background: #f4f3ef; border-color: #4f647a; }
+.card-shop .card-header { background: #e6ebf0; }
+.card-shop .card-type { color: #364a5e; }
 
 /* =========================
    📱 手機深度優化
