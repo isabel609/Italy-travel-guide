@@ -1,6 +1,6 @@
 [
   {
-    "id":"taoyuaninternationalairportterminal1",
+    "id":"taoyuaninternationalairportterminal10718",
     "name":"桃園機場第一航廈",
     "type":"transportation",
     "tags":["交通"],
@@ -9,7 +9,7 @@
     "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
   },
   {
-  "id":"romefiumicinoairport",
+  "id":"romefiumicinoairport0719",
   "name":"羅馬法林明高機場\nRome Fiumicino",
   "type":"transportation",
   "tags":["交通"],
@@ -24,7 +24,7 @@
   "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
   },
   {
-  "id":"florenceperetolaairport",
+  "id":"florenceperetolaairport0719",
   "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
   "type":"transportation",
   "tags":["交通"],
@@ -66,6 +66,28 @@
   "map_url":"https://maps.app.goo.gl/8PrkFYHS2DR1aKhf8"
   },
   {
+  "id":"b.ice",
+  "name":"B. ICE",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"gelato冰淇淋，4.7顆星",
+  "opening_hours":"11:00-22:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/m5TLmBQfeobjYf3fA"
+  },
+  {
+  "id":"smn",
+  "name":"SMN百年修道士藥妝店",
+  "type":"store",
+  "tags":["香水"],
+  "description":"百年化妝品店，賣香水/香氛/肥皂等",
+  "opening_hours":"09:30-20:00",
+  "tips":["靠近住宿",
+  "火車站左側"],
+  "map_url":"https://maps.app.goo.gl/KZetjZBg1J9JULp16"
+  },
+  {
   "id":"paninomondiale",
   "name":"Panino Mondiale - Specialità Lampredotto",
   "type":"restaurant",
@@ -86,6 +108,16 @@
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
   },
   {
+  "id":"gelateriaartigianalelasorbettiera",
+  "name":"Gelateria Artigianale La Sorbettiera",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"gelato冰淇淋，4.7顆星",
+  "opening_hours":"10:00–23:00",
+  "tips":["靠近火車站" , "火車站右側"],
+  "map_url":"https://maps.app.goo.gl/o35KnQKrWdQA9rfSA"
+  },
+  {
   "id":"borgoapartment",
   "name":"Borgo Apartment by Mamo Florence",
   "type":"accommodation",
@@ -95,7 +127,7 @@
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
   },
   {
-  "id":"firenzesantamarianovella",
+  "id":"firenzesantamarianovella0719",
   "name":"Firenze Santa Maria Novella",
   "type":"transportation",
   "tags":["交通"],
@@ -111,7 +143,7 @@
   "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
   },
   {
-  "id":"veronaportanuova",
+  "id":"veronaportanuova0719",
   "name":"Verona Porta Nuova",
   "type":"transportation",
   "tags":["交通"],
@@ -187,5 +219,32 @@
   "opening_hours":"12:00-15:00 , 19:00-23:00",
   "tips":["住宿往競技場方向走，跟住宿同側邊"],
   "map_url":"https://maps.app.goo.gl/iumYjm87xaXMCjuf9"
+  },
+  {
+  "id":"arenadiverona",
+  "name":"Arena di Verona",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"羅馬露天圓形競技場，看露天歌劇節目",
+  "tips":["Aida 21:15開始，開演前2小時可以入場，至少要提早1小時排安檢跟找座位",
+  "從gate 6進場，位置在第5區的對號石階座位，第4排的60/62/64/66號",
+  "背景是古埃及，正和衣索比亞交戰。阿依達（Aida）是衣索比亞公主，被俘後成了埃及公主的侍女。拉達梅斯（Radamès）是埃及名將。安奈莉絲（Amneris）是埃及公主，暗戀拉達梅斯。拉達梅斯和阿依達真心相愛，但兩人立場敵對，一個是敵國的公主，一個是要為埃及打仗的將軍，拉達梅斯在國家榮耀與個人愛情之間掙扎；阿依達則在對父親與祖國的忠誠和對愛人的感情之間痛苦抉擇。埃及公主安奈莉絲因愛生恨，讓三人的關係越來越無法挽回，最後走向一個壯烈又悲傷的結局"],
+  "map_url":"https://maps.app.goo.gl/rt15R1wRFBAck6ny7"
+  },
+  {
+  "id":"veronaportanuova0720",
+  "name":"Verona Porta Nuova",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"verona火車站，16:20出發，8963班次回florence",
+  "map_url":"https://maps.app.goo.gl/SqmLKjpq67DUeTuY7"
+  },
+  {
+  "id":"firenzesantamarianovella0720",
+  "name":"Firenze Santa Maria Novella",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"17:54抵達",
+  "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
   }
 ]
