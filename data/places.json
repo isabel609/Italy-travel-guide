@@ -232,6 +232,26 @@
   "map_url":"https://maps.app.goo.gl/rt15R1wRFBAck6ny7"
   },
   {
+  "id":"gelaterialaromanadal1947",
+  "name":"Gelateria La Romana dal 1947",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato，",
+  "opening_hours":"11:00-00:00",
+  "tips":["靠近住宿，在住宿對街上"],
+  "map_url":"https://maps.app.goo.gl/Yfm5vaBpTzG73hht7"
+  },
+  {
+  "id":"brunchrepublicverona",
+  "name":"Brunch Republic Verona",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona早午餐",
+  "opening_hours":"07:30-21:30",
+  "tips":["住宿往左走，住宿對面街上。價格落在€10~€20"],
+  "map_url":"https://maps.app.goo.gl/DEJyWcVyvywjRkgy5"
+  },
+  {
   "id":"veronaportanuova0720",
   "name":"Verona Porta Nuova",
   "type":"transportation",
