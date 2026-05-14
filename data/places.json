@@ -164,19 +164,20 @@
   "map_url":"https://www.google.com/maps/place/Piccolo+Attico+Porta+Nuova+-+Two-Bedroom+Apartment/@45.4350319,10.9847699,16z/data=!4m10!3m9!1s0x477f5f439b19cdc7:0x56c912ee8c8a873e!5m2!4m1!1i2!8m2!3d45.4350319!4d10.9899197!16s%2Fg%2F11mky0wb0n!17BQ0FF?authuser=0&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
   },
   {
-  "id":"iat",
-  "name":"IAT Verona Tourist Information Office",
+  "id":"veronapass",
+  "name":"Verona Pass",
   "type":"attraction",
   "tags":["景點"],
-  "description":"Verona旅遊資訊處，可以買verona pass",
+  "description":"verona pass除了在IAT Verona Tourist Information Office購買，也可以在有配合的博物館或教堂售票處（部分景點如茱麗葉故居、朗貝爾蒂塔除外）購買",
   "opening_hours":"09:00–18:00",
-  "tips":["verona pass除了在IAT購買，也可以在有配合的博物館或教堂售票處（部分景點如茱麗葉故居、朗貝爾蒂塔除外）購買",
-    "24 小時券：約 €27",
+  "tips":["24 小時券：約 €27",
+    "免費參觀景點 :維洛納競技場/茱麗葉之家/蘭貝爾蒂塔/老城堡博物館/維洛納主教座堂/聖柴諾聖殿/聖安娜斯塔西亞教堂/羅馬劇場考古博物館/自然歷史博物館/茱麗葉之墓博物館等",
+    "茱麗葉之家 (Casa di Giulietta) 強制預約： 雖然持卡可免費參觀，但因人潮極為擁擠，必須事先在官網預約入場時段。若未預約，即使持有實體卡也無法進入。",
+    "回本 : 看三個以上景點就回本",
     "一卡一景點： 每個涵蓋的景點（博物館、教堂、歷史遺跡）只能憑卡進入一次",
     "快速通關： 直接前往入口處的讀卡機或專屬通道感應卡片即可，多數主要景點享有免排隊 (Skip-the-line) 的待遇，能大幅提升走訪效率。",
     "可免費且無限次搭乘維羅納市內的 ATV (Azienda Trasporti Verona) 市區公車。",
-    "每次上公車時，務必將卡片靠在車上的讀卡機進行感應 (Validate)，以免視同逃票。",
-    "茱麗葉故居 (Casa di Giulietta) 強制預約： 雖然持卡可免費參觀，但因人潮極為擁擠，必須事先在官網預約入場時段。若未預約，即使持有實體卡也無法進入。"
+    "每次上公車時，務必將卡片靠在車上的讀卡機進行感應 (Validate)，以免視同逃票。"
   ],
   "map_url":"https://maps.app.goo.gl/MoPjv3EFjgNVJVqS7"
   },
@@ -242,6 +243,16 @@
   "map_url":"https://maps.app.goo.gl/Yfm5vaBpTzG73hht7"
   },
   {
+  "id":"café71",
+  "name":"Café n°71",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"verona早午餐",
+  "opening_hours":"07:15-18:00",
+  "tips":["住宿樓下同側。價格落在€1~€10"],
+  "map_url":"https://maps.app.goo.gl/CJgJ614fGbY49VKn7"
+  },
+  {
   "id":"brunchrepublicverona",
   "name":"Brunch Republic Verona",
   "type":"restaurant",
@@ -250,6 +261,26 @@
   "opening_hours":"07:30-21:30",
   "tips":["住宿往左走，住宿對面街上。價格落在€10~€20"],
   "map_url":"https://maps.app.goo.gl/DEJyWcVyvywjRkgy5"
+  },
+  {
+  "id":"saintbernardino",
+  "name":"Saint Bernardino",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"修道院",
+  "opening_hours":"08:30-11:30 / 15:30-17:30",
+  "tips":["免門票"],
+  "map_url":"https://maps.app.goo.gl/MoPjv3EFjgNVJVqS7"
+  },
+  {
+  "id":"basilicadisanzenomaggiore",
+  "name":"Basilica di San Zeno Maggiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖柴諾聖殿",
+  "opening_hours":"09:00-18:30",
+  "tips":["要門票", "單一教堂票€4","如果90天內要去聖柴諾聖殿、維羅納主教座堂、聖亞納大削堂、聖費爾莫堂，可以在其中一個教堂買聯票(cumulative ticket)，一張€8，不用提前預約","或是買verona pass","用手機就可以免費聽官方語音導覽"],
+  "map_url":"https://maps.app.goo.gl/Zdu9rrPbiDVyDfFU8"
   },
   {
   "id":"veronaportanuova0720",
