@@ -283,6 +283,24 @@
   "map_url":"https://maps.app.goo.gl/Zdu9rrPbiDVyDfFU8"
   },
   {
+  "id":"pontedicastelvecchio",
+  "name":"Ponte di Castelvecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"阿迪傑河上14世紀建的斯卡利傑羅橋，以大理石和磚砌成的",
+  "tips":["從聖柴諾聖殿走去市區會經過"],
+  "map_url":"https://maps.app.goo.gl/iJxMnqjd7pFTm8Cf6"
+  },
+  {
+  "id":"portaborsari",
+  "name":"Porta Borsari",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"波薩利門",
+  "tips":["建於西元1世紀 (羅馬帝國時期)的城市正門"],
+  "map_url":"https://maps.app.goo.gl/xccAufsH36qEmWvu5"
+  },
+  {
   "id":"veronaportanuova0720",
   "name":"Verona Porta Nuova",
   "type":"transportation",
