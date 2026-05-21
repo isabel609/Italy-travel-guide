@@ -301,6 +301,111 @@
   "map_url":"https://maps.app.goo.gl/xccAufsH36qEmWvu5"
   },
   {
+  "id":"piazzaerbe",
+  "name":"Piazza Erbe",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百草廣場",
+  "tips":["城鎮廣場，周圍有很多咖啡館跟市集可以逛","可以買到verona傳統燉肉與梨醬三明治 lesso e peara"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"torredeilamberti",
+  "name":"Torre dei Lamberti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"朗貝爾蒂塔",
+  "opening_hours":"10:00-18:00",
+  "tips":["維羅納最高的中世紀塔樓，由蘭伯蒂家族於 1172 年建成","可以用verona pass進入"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"piazzadeisignori",
+  "name":"Piazza dei Signori",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"領主廣場",
+  "tips":["廣場，有但丁的雕像和咖啡廳"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"micheleturco1909",
+  "name":"Michele Turco 1909",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"麵包店，有賣義大利節日美食pandoro，一種用雞蛋、奶油和糖製成，最後撒上糖粉的蛋糕",
+  "opening_hours":"11:00-13:30 / 15:30-19:00",
+  "map_url":"https://maps.app.goo.gl/SvFZi4i7NcrPUoM57"
+  },
+  {
+  "id":"osteriaalduca",
+  "name":"Osteria al Duca",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵餐廳，價格落在€20~€30，有賣verona美食 鴨肉拉古醬比高利麵Bigoli with duck ragù",
+  "opening_hours":"12:00-14:30",
+  "map_url":"https://maps.app.goo.gl/ETD71Egdt86FLUNH6"
+  },
+  {
+  "id":"osteriailbertoldo",
+  "name":"Osteria Il Bertoldo",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵餐廳，價格落在€20~€40，有賣verona美食 鴨肉拉古醬比高利麵Bigoli with duck ragù",
+  "tips":["可以用google訂位"],
+  "opening_hours":"12:00-22:30",
+  "map_url":"https://maps.app.goo.gl/HuiJkikArzbDZLv1A"
+  },
+  {
+  "id":"complessodelduomodiverona",
+  "name":"Complesso del Duomo di Verona",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"維羅納主教座堂",
+  "opening_hours":"10:00-17:30",
+  "tips":["天主教主教座堂","可以用verona pass進入","必看作品:文藝復興時期維尼斯第一畫師提香(Tiziano Vecellio)所作<聖母升天>"],
+  "map_url":"https://maps.app.goo.gl/YtN6BEpqLyErVvyU7"
+  },
+  {
+  "id":"basilicadisant'anastasia",
+  "name":"Basilica di Sant' Anastasia",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖亞納大教堂",
+  "opening_hours":"09:30-18:00",
+  "tips":["可以用verona pass進入","哥德式建築"],
+  "map_url":"https://maps.app.goo.gl/6PjFtRQhu4B58fJX6"
+  },
+  {
+  "id":"portaleoni",
+  "name":"Porta Leoni",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"獅子門",
+  "tips":["古羅馬城市正門之一，以前在這發現了有裝飾了兩個石獅子的古墓，因而得名","附近有很多小商店跟冰淇淋店"],
+  "map_url":"https://maps.app.goo.gl/wtM4xzapC2S2uZan9"
+  },
+  {
+  "id":"gelateriaverona",
+  "name":"Gelateria Verona",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "tips":["可以用google訂位"],
+  "opening_hours":"11:30-20:00",
+  "map_url":"https://maps.app.goo.gl/WQhdFnKnLdxPXcFH8"
+  },
+  {
+  "id":"chiesadisanfermomaggiore",
+  "name":"Chiesa di San Fermo Maggiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"聖費爾莫教堂",
+  "opening_hours":"09:30-18:00",
+  "tips":["可以用verona pass進入","由兩座不同時代、不同風格的教堂疊加而成的大教堂","特色是上層教堂的木製龍骨穹頂，以及早期文藝復興畫師 : 皮薩內洛繪製的《聖母領報》(Annunciation)濕壁畫"],
+  "map_url":"https://maps.app.goo.gl/FBBSx47KUSY3HsGEA"
+  },
+  {
   "id":"veronaportanuova0720",
   "name":"Verona Porta Nuova",
   "type":"transportation",
@@ -315,5 +420,44 @@
   "tags":["交通"],
   "description":"17:54抵達",
   "map_url":"https://maps.app.goo.gl/N4P645KcRQZRoW956"
+  },
+  {
+  "id":"phopho",
+  "name":"Pho Pho",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"越南河粉",
+  "tips":["可以用google訂位","價格落在€10~€20"],
+  "opening_hours":"11:00-22:30",
+  "map_url":"https://maps.app.goo.gl/rzTvQQoFjfDgANWN7"
+  },
+  {
+  "id":"sig.riso",
+  "name":"Sig.Riso 米先生中餐馆",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"中餐館",
+  "tips":["價格落在€10~€20"],
+  "opening_hours":"11:30-22:30",
+  "map_url":"https://maps.app.goo.gl/jqzGUR42RDCndJMbA"
+  },
+  {
+  "id":"ristorantecineseimpressionechongqing",
+  "name":"重慶印象",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"川菜",
+  "tips":["價格落在€10~€20"],
+  "opening_hours":"12:00-15:30 / 18:00-22:30",
+  "map_url":"https://maps.app.goo.gl/Yb2m4DDV8uiFmYQz5"
+  },
+  {
+  "id":"conadcity",
+  "name":"Conad City",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"超市",
+  "opening_hours":"08:30-21:00",
+  "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
   }
 ]
