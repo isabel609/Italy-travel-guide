@@ -13,6 +13,13 @@
   {
     "day": "day3",
     "title": "Day 3 - 0720",
-    "places": ["veronapass","brunchrepublicverona","café71","saintbernardino","basilicadisanzenomaggiore","veronaportanuova0720","firenzesantamarianovella0720"]
+    "places": ["veronapass","brunchrepublicverona","café71","saintbernardino","basilicadisanzenomaggiore","pontedicastelvecchio","portaborsari",
+      "piazzaerbe","torredeilamberti","piazzadeisignori","micheleturco1909","osteriaalduca","osteriailbertoldo","complessodelduomodiverona","basilicadisant'anastasia",
+      "portaleoni","gelateriaverona","chiesadisanfermomaggiore","veronaportanuova0720","firenzesantamarianovella0720","phopho","sig.riso","ristorantecineseimpressionechongqing","conadcity"]
+  },
+  {
+    "day": "day4",
+    "title": "Day 4 - 0721",
+    "places": [""]
   }
 ]
