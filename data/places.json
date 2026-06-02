@@ -12,8 +12,16 @@
     "name":"維羅納（義大利北部威尼托地區）",
     "type":"attraction",
     "tags":["景點"],
-    "description":"建於西元一世紀，在羅馬帝國時期非常繁榮。史卡立傑利（Scaligeri）家族從1263年開始長達127年的統治。15～18世紀末期，維羅納還屬於威尼斯共和國，充滿文藝復興、巴洛克風格教堂跟宮殿。2000多年不斷發展，造就維羅納充滿各個時期。莎士比亞的名作《羅密歐與茱麗葉》以此城為背景，有「愛之都」之稱",
+    "description":"建於西元一世紀，在羅馬帝國時期非常繁榮。史卡立傑利（Scaligeri）家族從1263年開始長達127年的統治。15～18世紀末期，維羅納還屬於威尼斯共和國，充滿文藝復興、巴洛克風格教堂跟宮殿。2000多年不斷發展，造就維羅納充滿各個時期的建築風格。莎士比亞的名作《羅密歐與茱麗葉》以此城為背景，有「愛之都」之稱",
     "map_url":"https://maps.app.goo.gl/z13b1LHA5zeoiapGA"
+  },
+  {
+    "id":"greve",
+    "name":"Greve in Chianti(義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"全球最著名的葡萄酒產區之一，以療癒的葡萄園風光、古老城堡和醇厚的美酒聞名",
+    "map_url":"https://maps.app.goo.gl/JFFcp1EMz3q4eArW6"
   },
   {
     "id":"chianti",
@@ -28,7 +36,7 @@
     "name":"聖吉米尼亞諾 (義大利中部托斯卡尼地區)",
     "type":"attraction",
     "tags":["景點"],
-    "description":"被譽為「美麗的塔城」，充滿中世紀封建時代的氛圍，位在往來羅馬的中繼站，統治這個地區的家族在這邊建造了72座高塔，目前只剩14座留存下來",
+    "description":"中世紀山城，這裡最大特色是城中高塔林立，被譽為「托斯卡尼的皇冠」。充滿中世紀封建時代的氛圍，位在往來羅馬的中繼站，統治這個地區的家族在這邊建造了72座高塔，目前只剩14座留存下來。除了被登錄為世界文化遺產，也獲評為米其林三星級旅遊推薦。來這邊的觀光客比較少，所以皮件、黑松露等商品都相對便宜",
     "map_url":"https://maps.app.goo.gl/uKQxkbXKmAwraqtw9"
   },
   {
@@ -37,7 +45,7 @@
     "type":"restaurant",
     "tags":["餐廳"],
     "description":"美食甜點都不能放過",
-    "tips":["Marrochino 摩洛哥咖啡：咖啡+奶泡+可可粉","Cannoli 開心果起司捲","提拉米蘇","Semifreddo Torroncino 義式牛扎糖冰淇淋蛋糕","Chianti葡萄酒 （brunello di montalcino, Vino Nobile di Montepulciano)","Piemonte 出產的Moscato D’Asti白葡萄酒（微甜、微氣泡、酒精濃度低)","Aperol Spritz阿佩羅雞尾酒",
+    "tips":["Marrochino 摩洛哥咖啡：咖啡+奶泡+可可粉","gelato","Cannoli 開心果起司捲","提拉米蘇","Semifreddo Torroncino 義式牛扎糖冰淇淋蛋糕","Chianti葡萄酒 （brunello di montalcino, Vino Nobile di Montepulciano)","Piemonte 出產的Moscato D’Asti白葡萄酒（微甜、微氣泡、酒精濃度低)","Aperol Spritz阿佩羅雞尾酒",
 "Bistecca alla Fiorentina佛羅倫斯大牛排","Pappardelle大寬麵","Pici 手橄細麵","Bigoli 特製手工麵條","Prosseco 香檳"]
   },
   {
@@ -508,5 +516,105 @@
   "description":"超市",
   "opening_hours":"08:30-21:00",
   "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
-  }
+  },
+  {
+  "id":"borgoapartment0727",
+  "name":"Borgo Apartment by Mamo Florence",
+  "type":"accommodation",
+  "tags":["住宿"],
+  "description":"早上8點包車接送會來住宿接我們",
+  "tips":["包車時間是早上8點到晚上6點","已經在KKDay上付款，不用再另外付費","司機前一天會用Wechat聯絡我們","早餐預計去greve in chianti吃，車程1個小時，肚子餓先吃餅乾"],
+  "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
+  },
+  {
+  "id":"piazzamatteotti",
+  "name":"馬特奧蒂廣場 Piazza Matteotti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"小鎮的核心，標誌性的三角形廣場周圍環繞著拱廊。",
+  "tips":["預計9點抵達"],
+  "map_url":"https://maps.app.goo.gl/HMTLnDJwL7JHEvcy9"
+  },
+  {
+  "id":"pasticceriachianti",
+  "name":"Pasticceria Chianti",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"吃早餐~ 午餐會大概下午3點吃，早餐吃飽一點",
+  "opening_hours":"06:30-19:00",
+  "map_url":"https://maps.app.goo.gl/TMbpLN2GwXH7dAUH7"
+  },
+  {
+  "id":"labottegadelpane",
+  "name":"LA BOTTEGA DEL PANE",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"麵包店",
+  "opening_hours":"07:00–13:00",
+  "map_url":"https://maps.app.goo.gl/NwyGbMwrpAAjU3cEA"
+  },
+  {
+  "id":"antinorinelchianticlassico",
+  "name":"安蒂諾里酒莊",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利最具傳奇色彩的頂級釀酒家族，擁有超過 600 年、傳承 26 代的輝煌歷史。2012年蓋好的安蒂諾里酒莊曾榮獲 「世界最佳葡萄園」（World's Best Vineyards）第一名殊榮。整座建築直接嵌入奇揚地的山坡中，屋頂覆蓋著葡萄藤，與周圍丘陵融為一體。內部設計利用自然重力流（Gravity-flow）輸送葡萄與酒液，減少機械泵抽對酒質的破壞；地下酒窖利用地溫維持恆溫恆濕，極具環保與節能效益。家族旗下的 Tignanello（天娜露） 和 Solaia（索拉雅） 是全球收藏家爭相追捧的頂級膜拜酒。",
+  "tips":["從佛羅倫斯過來車程約30~40分鐘","有預約品酒導覽行程，12:30開始，活動15分鐘前要到櫃檯報到。整個導覽約1個半小時，會介紹酒莊歷史跟品三款酒"],
+  "opening_hours":"10:00-17:30",
+  "map_url":"https://maps.app.goo.gl/ukDM6gs58DMnBqso6"
+  },
+  {
+  "id":"gelateriadondoli",
+  "name":"Gelateria Dondoli",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"在多屆「義式冰淇淋世界盃」中奪下世界冠軍的gelato，4.7顆星",
+  "opening_hours":"09:00-22:00",
+  "map_url":"https://maps.app.goo.gl/ram1UVxDwSVaazQG7"
+  },
+  {
+  "id":"vinainofiorenza",
+  "name":"Vinaino Fiorenza",
+  "type":"restaurant",
+  "tags":["三明治"],
+  "description":"google map 4.9 顆星的三明治，因為在聖吉米只有兩個小時可以逛 (5點要回程)，吃三明治比較快",
+  "opening_hours":"10:30-18:00",
+  "map_url":"https://maps.app.goo.gl/Tu3tDP9UozZ1PYFDA"
+  },
+  {
+  "id":"torregrossa",
+  "name":"格羅薩塔 Torre Grossa",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"精華景點，登上塔頂可俯瞰托斯卡尼田園風光",
+  "tips":["登塔的入口位於主教座堂廣場（Piazza del Duomo） 階梯旁的市政宮（Palazzo Comunale）。順著通道走進中庭，再走上階梯穿過平台，即可看到一個結合紀念品店的售票櫃台，在那裡直接購買即可。"],
+  "opening_hours":"10:00-19:30",
+  "map_url":"https://maps.app.goo.gl/Rt2Fw7diuYWqunBJ6"
+  },
+  {
+  "id":"piazzadellacisterna",
+  "name":"水井廣場Piazza della Cisterna",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"精華景點，有個水井在廣場中央，周圍有很多咖啡廳跟市集商店可以逛",
+  "map_url":"https://maps.app.goo.gl/kX1iPGQrXu5xRmBHA"
+  },
+  {
+  "id":"gelateriadell'olmo",
+  "name":"Gelateria dell'Olmo",
+  "type":"restaurant",
+  "tags":["冰淇淋"],
+  "description":"當地人推薦的gelato",
+  "opening_hours":"07:00-22:00",
+  "map_url":"https://maps.app.goo.gl/wBGijhXiS77NY6zv6"
+  },
+  {
+  "id":"letorris.r.l.",
+  "name":"Le Torri s.r.l.",
+  "type":"store",
+  "tags":["商店"],
+  "description":"價位合理又全都是使用義大利當地的皮革製作的義大利皮件店",
+  "opening_hours":"09:00-19:30",
+  "map_url":"https://maps.app.goo.gl/2BXrWonjLMSsEYrW8"
+  },
 ]
