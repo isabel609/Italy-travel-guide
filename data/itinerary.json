@@ -1,5 +1,10 @@
 [
   {
+    "day": "intro",
+    "title": "Intro",
+    "places": ["florence","verona","chianti","sangimignano","musttoeat","musttobuy"]
+  },
+  {
     "day": "day1",
     "title": "Day 1 - 0718",
     "places": ["taoyuaninternationalairportterminal10718"]
