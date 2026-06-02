@@ -1,5 +1,54 @@
 [
   {
+    "id":"florence",
+    "name":"佛羅倫斯 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"文藝復興象徵的城市，15～16世紀在麥第奇家族的統治下，經濟跟文化都來到鼎盛。",
+    "map_url":"https://maps.app.goo.gl/8dPjWNtrWHi366vZ8"
+  },
+  {
+    "id":"verona",
+    "name":"維羅納（義大利北部威尼托地區）",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"建於西元一世紀，在羅馬帝國時期非常繁榮。史卡立傑利（Scaligeri）家族從1263年開始長達127年的統治。15～18世紀末期，維羅納還屬於威尼斯共和國，充滿文藝復興、巴洛克風格教堂跟宮殿。2000多年不斷發展，造就維羅納充滿各個時期。莎士比亞的名作《羅密歐與茱麗葉》以此城為背景，有「愛之都」之稱",
+    "map_url":"https://maps.app.goo.gl/z13b1LHA5zeoiapGA"
+  },
+  {
+    "id":"chianti",
+    "name":"奇揚地 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"全球最著名的葡萄酒產區之一。最頂級的「經典奇揚地（Chianti Classico）」瓶頸上，都印有一隻黑公雞（Gallo Nero）標誌。",
+    "map_url":"https://maps.app.goo.gl/ukDM6gs58DMnBqso6"
+  },
+  {
+    "id":"sangimignano",
+    "name":"聖吉米尼亞諾 (義大利中部托斯卡尼地區)",
+    "type":"attraction",
+    "tags":["景點"],
+    "description":"被譽為「美麗的塔城」，充滿中世紀封建時代的氛圍，位在往來羅馬的中繼站，統治這個地區的家族在這邊建造了72座高塔，目前只剩14座留存下來",
+    "map_url":"https://maps.app.goo.gl/uKQxkbXKmAwraqtw9"
+  },
+  {
+    "id":"musttoeat",
+    "name":"義大利必吃美食甜點",
+    "type":"restaurant",
+    "tags":["餐廳"],
+    "description":"美食甜點都不能放過",
+    "tips":["Marrochino 摩洛哥咖啡：咖啡+奶泡+可可粉","Cannoli 開心果起司捲","提拉米蘇","Semifreddo Torroncino 義式牛扎糖冰淇淋蛋糕","Chianti葡萄酒 （brunello di montalcino, Vino Nobile di Montepulciano)","Piemonte 出產的Moscato D’Asti白葡萄酒（微甜、微氣泡、酒精濃度低)","Aperol Spritz阿佩羅雞尾酒",
+"Bistecca alla Fiorentina佛羅倫斯大牛排","Pappardelle大寬麵","Pici 手橄細麵","Bigoli 特製手工麵條","Prosseco 香檳"]
+  },
+  {
+    "id":"musttobuy",
+    "name":"義大利必買",
+    "type":"store",
+    "tags":["商店"],
+    "description":"歐米呀給",
+    "tips":["牛肝菌 Funghi Porcini","皮件","摩卡壺 （Bialetti / Giannini/ Alessi)","Baci 巧克力","Lavazza/ illy 咖啡","松露鹽 (Piemonte地區出產的最棒）","檸檬糖","檸檬香皂","義大利麵","Manetti Roberts Rose water 蒸餾玫瑰水（化妝水）","Mulino Bianco 白磨坊餅乾 （baiocchi 榛果可可醬、Cuoricini 可可豆餅乾）]
+  },
+  {
     "id":"taoyuaninternationalairportterminal10718",
     "name":"桃園機場第一航廈",
     "type":"transportation",
