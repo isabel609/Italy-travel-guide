@@ -2,7 +2,7 @@ const list = document.getElementById("list");
 
 let allPlaces = [];
 let itineraries = [];
-let currentDay = "day1";
+let currentDay = "intro";
 let currentType = "all";
 
 /* 載入資料 */
