@@ -547,6 +547,15 @@
   "map_url":"https://maps.app.goo.gl/NwyGbMwrpAAjU3cEA"
   },
   {
+  "id":"cosedeborgo",
+  "name":"Cose del Borgo | Arredo Casa, Tessuti e Lino Fiorentino",
+  "type":"store",
+  "tags":["店鋪"],
+  "description":"手工藝品店，有網頁商店，東西都很漂亮",
+  "opening_hours":"09:00–13:00",
+  "map_url":"https://maps.app.goo.gl/92CnoWPwsWzxaAHX9?g_st=ic"
+  },
+  {
   "id":"antinorinelchianticlassico",
   "name":"安蒂諾里酒莊",
   "type":"attraction",
@@ -609,5 +618,23 @@
   "description":"價位合理又全都是使用義大利當地的皮革製作的義大利皮件店",
   "opening_hours":"09:00-19:30",
   "map_url":"https://maps.app.goo.gl/2BXrWonjLMSsEYrW8"
-  }
+  },
+  {
+  "id":"trattoriasostanza",
+  "name":"Trattoria Sostanza",
+  "type":"restaurant",
+  "tags":["奶油燉雞"],
+  "description":"奶油燉雞，建議預約",
+  "opening_hours":"19:30-21:45",
+  "map_url":"https://maps.app.goo.gl/NLPF3XcFVpP5GewF6?g_st=ic"
+  },
+  {
+  "id":"indianafirenze",
+  "name":"Taj Palace Ristorante Indian a Firenze",
+  "type":"restaurant",
+  "tags":["印度菜"],
+  "description":"印度菜，評價很高，可預約",
+  "opening_hours":"18:00-23:00",
+  "map_url":"https://maps.app.goo.gl/wRvtxTtGyJjZR14p7?g_st=ic"
+  },
 ]
