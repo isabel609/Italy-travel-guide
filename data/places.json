@@ -46,7 +46,7 @@
     "tags":["餐廳"],
     "description":"美食甜點都不能放過",
     "tips":["Marrochino 摩洛哥咖啡：咖啡+奶泡+可可粉","gelato","Cannoli 開心果起司捲","提拉米蘇","Semifreddo Torroncino 義式牛扎糖冰淇淋蛋糕","Chianti葡萄酒 （brunello di montalcino, Vino Nobile di Montepulciano)","Piemonte 出產的Moscato D’Asti白葡萄酒（微甜、微氣泡、酒精濃度低)","Aperol Spritz阿佩羅雞尾酒",
-"Bistecca alla Fiorentina佛羅倫斯大牛排","Pappardelle大寬麵","Pici 手橄細麵","Bigoli 特製手工麵條","Prosseco 香檳"]
+"Bistecca alla Fiorentina佛羅倫斯大牛排","Pappardelle大寬麵","Pici 手橄細麵","Bigoli 特製手工麵條","Prosseco 香檳","gelato"]
   },
   {
     "id":"musttobuy",
@@ -512,13 +512,22 @@
   },
   {
   "id":"shakecafé",
-  "name":"重慶印象",
+  "name":"Shake Café",
   "type":"restaurant",
   "tags":["餐廳"],
-  "description":"川菜",
-  "tips":["價格落在€10~€20"],
-  "opening_hours":"12:00-15:30 / 18:00-22:30",
-  "map_url":"https://maps.app.goo.gl/Yb2m4DDV8uiFmYQz5"
+  "description":"早餐，咖啡店",
+  "opening_hours":"7:30～19:00",
+  "map_url":"https://maps.app.goo.gl/UC5vMeoTHFff7iXy7?g_st=ic"
+  },
+  {
+  "id":"galleriadell’accademiadifirenze",
+  "name":"學院美術館 Galleria dell’Accademia di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯必到景點",
+  "opening_hours":"週二到週日8:15～18:50",
+  "tips":["最好8點前到達排隊或先預約門票","直接到 B-Ticket 官方網站點選要的日期，票種選擇「Free Ticket / Gratuto」（免費票），系統會收取每人每館 €4 的線上預約手續費。並在入場時搭配Firenze card 使用。","也可以電話預約，免費","全票€16","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"]
+  "map_url":"https://maps.app.goo.gl/UgXzQgWVZq9K5LHV7?g_st=ic"
   },
   {
   "id":"borgoapartment0727",
