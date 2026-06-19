@@ -511,6 +511,16 @@
   "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
   },
   {
+  "id":"shakecafé",
+  "name":"重慶印象",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"川菜",
+  "tips":["價格落在€10~€20"],
+  "opening_hours":"12:00-15:30 / 18:00-22:30",
+  "map_url":"https://maps.app.goo.gl/Yb2m4DDV8uiFmYQz5"
+  },
+  {
   "id":"borgoapartment0727",
   "name":"Borgo Apartment by Mamo Florence",
   "type":"accommodation",
@@ -636,5 +646,5 @@
   "description":"印度菜，評價很高，可預約",
   "opening_hours":"18:00-23:00",
   "map_url":"https://maps.app.goo.gl/wRvtxTtGyJjZR14p7?g_st=ic"
-  },
+  }
 ]
