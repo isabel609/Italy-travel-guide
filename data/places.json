@@ -138,6 +138,16 @@
   "map_url":"https://maps.app.goo.gl/KZetjZBg1J9JULp16"
   },
   {
+  "id":"basilicadisantamarianovella",
+  "name":"新聖母大殿 Basilica di Santa Maria Novella",
+  "type":"attraction",
+  "tags":["教堂"],
+  "description":"哥德式教堂，就在佛羅倫斯火車站旁邊",
+  "opening_hours":"週一到週四及週六9:00～17:30、週五11:00～17:30、週日13:00～17:30",
+  "tips":["全票€7.5 （含教堂博物館跟修道院）","教堂內部必看：馬薩其歐（Masaccio）《三位一體 Trinity》、喬托《十字架 Crucifix》","博物館必看：《綠色迴廊 Chiostro Verde》 、《西班牙大祭壇 Cappellone degli Spagnoli》"],
+  "map_url":"https://maps.app.goo.gl/XxRzT2fNsCGhfEE17?g_st=ic"
+  },
+  {
   "id":"paninomondiale",
   "name":"Panino Mondiale - Specialità Lampredotto",
   "type":"restaurant",
@@ -511,6 +521,15 @@
   "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
   },
   {
+  "id":"fornobecagli",
+  "name":"Forno Becagli",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐，麵包店",
+  "opening_hours":"6:30～20:00",
+  "map_url":"https://maps.app.goo.gl/Hiyy29Giz53f2WBg8?g_st=ic"
+  },
+  {
   "id":"shakecafé",
   "name":"Shake Café",
   "type":"restaurant",
@@ -526,8 +545,73 @@
   "tags":["景點"],
   "description":"佛羅倫斯必到景點",
   "opening_hours":"週二到週日8:15～18:50",
-  "tips":["最好8點前到達排隊或先預約門票","直接到 B-Ticket 官方網站點選要的日期，票種選擇「Free Ticket / Gratuto」（免費票），系統會收取每人每館 €4 的線上預約手續費。並在入場時搭配Firenze card 使用。","也可以電話預約，免費","全票€16","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"],
+  "tips":["最好8點前到達排隊或先預約門票","如果有買firenze card，直接到 B-Ticket 官方網站點選要的日期，票種選擇「Free Ticket / Gratuto」（免費票），系統會收取每人每館 €4 的線上預約手續費。並在入場時搭配Firenze card 使用。","也可以電話預約，免費","全票€16","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"],
   "map_url":"https://maps.app.goo.gl/UgXzQgWVZq9K5LHV7?g_st=ic"
+  },
+  {
+  "id":"alagrandecaffècaffrosanò",
+  "name":"Ala Grande Caffè (Caffè Rosanò)",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"咖啡店，吃點心喝咖啡修整一番",
+  "opening_hours":"9:00～14:30",
+  "map_url":"https://maps.app.goo.gl/1996pyZkDqXkMxEP6?g_st=ic"
+  },
+  {
+  "id":"museodisanmarco",
+  "name":"聖馬可博物館 Museo di San Marco",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"保存了大量早期文藝復興畫家安傑利科修士(Fra Angelico)的壁畫作品，被認為是世界上收藏他作品最完整的地方",
+  "opening_hours":"8:30～13:50",
+  "tips":["使用 Firenze Card 可直接入場","不需要事先預約","有快速通道(Fast Track)","現場會安排到最近可入場時段","最後入場時間約為 12:45","清淨、遊客少很多","可以近距離感受修道院生活","壁畫幾乎都還在原始位置"],
+  "map_url":"https://maps.app.goo.gl/54C863xBd22i3cSX9?g_st=ic"
+  },
+  {
+  "id":"mercatocentrale",
+  "name":"中央市場Mercato Centrale",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"當地著名美食廣場市場",
+  "tips":["1F：在地市場氛圍看食材","2F：熟食區超多攤，通常開到晚間（店家營業時間略有不同，但建議中午去人潮較舒適","必吃：Nerbone 牛肚包、手工義大利麵、T骨牛排切片、海鮮炸物","外圍攤販區：看皮件、圍巾、在地小物"],
+  "map_url":"https://maps.app.goo.gl/p4WJEZuihZ9vbGTt8?g_st=ic"
+  },
+  {
+  "id":"danerbone",
+  "name":"Da Nerbone",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"佛羅倫斯必吃牛肚包名店，位於中央市場",
+  "opening_hours":"8:30～15:00",
+  "map_url":"https://maps.app.goo.gl/4g7NVDU8qBfpReYY7?g_st=ic"
+  },
+  {
+  "id":"bambitrippaelampredotto",
+  "name":"Bambi Trippa e Lampredotto",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"也很有名好吃的牛肚包名店，沒有nerbone那麼排",
+  "opening_hours":"7:00～15:00",
+  "map_url":"https://maps.app.goo.gl/h2rLaVQCNnBZxeQx6?g_st=ic"
+  },
+  {
+  "id":"pescheriasugarello",
+  "name":"Pescheria Sugarello",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"炸海鮮和各種海鮮料理",
+  "opening_hours":"9:00～14:30",
+  "map_url":"https://maps.app.goo.gl/KPrtuUTpodgDYKHD8?g_st=ic"
+  },
+  {
+  "id":"palazzomediciriccardi",
+  "name":"美第奇 - 里卡迪宮 Palazzo Medici Riccardi",
+  "type":"atteaction",
+  "tags":["景點"],
+  "description":"美第奇家族委託米開羅佐Michelozzo建於15世紀的的私人宮殿",
+  "opening_hours":"9:00～19:00",
+  "tips":["可用firenze card","三王禮拜堂（Cappella dei Magi）:牆上是 Benozzo Gozzoli 的《三王來朝》系列壁畫，看似宗教故事，其實偷偷把許多美第奇家族成員畫進去","文藝復興中庭:由 Michelozzo 設計的庭院是文藝復興建築的重要範例，氣氛非常典雅安靜","鏡廳（Galleria di Luca Giordano）:後來里卡迪家族買下宮殿後，加入大量巴洛克風格裝飾。天花板上是 Luca Giordano 的巨幅濕壁畫《美第奇家族的榮耀》，非常華麗。"],
+  "map_url":"https://maps.app.goo.gl/BT4NW1VK4Y7T5DcF6?g_st=ic"
   },
   {
   "id":"borgoapartment0727",
