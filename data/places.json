@@ -521,6 +521,81 @@
   "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
   },
   {
+  "id":"caffèbrunelleschi",
+  "name":"Caffè Brunelleschi",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐，麵包店",
+  "opening_hours":"6:30～21:00",
+  "map_url":"https://maps.app.goo.gl/w1dkc76TjfCNXMN87?g_st=ic"
+  },
+  {
+  "id":"criptadisantareparata",
+  "name":"聖雷帕拉達教堂 Cripta di Santa Reparata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"地下遺跡，聖母百花大教堂是重建在西元5世紀就存在的聖雷帕拉達教堂上。",
+  "opening_hours":"10:15～16:00",
+  "tips":["從聖雷帕拉達教堂入口進教堂（因為要買套票才能進，所以排隊的人會比直接從百花教堂大門進還少），因為地下遺跡的樓梯是在教堂內部中心，所以可以看是要先逛教堂內部，還是先下去地下遺跡","有布魯內雷斯基的棺木","不能穿無袖上衣、短褲、短裙、涼鞋、帽子","不能帶後背包"],
+  "map_url":"https://maps.app.goo.gl/1hYDmuUPXp88b25j6"
+  },
+  {
+  "id":"cattedraledisantamariadelfiore",
+  "name":"聖母百花大教堂 Cattedrale di Santa Maria del Fiore",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"世界第四大教堂，這座文藝復興時期的建築傑作以粉綠、粉紅和白色的幾何大理石外觀聞名",
+  "opening_hours":"10:15～15:45",
+  "tips":["百花教堂地板是彩色大理石","因為下午爬穹頂動線本身就會引導走過大教堂內部（如懸空走道），可以在高處俯瞰大教堂內部。登頂結束下樓後，也會直接進到大教堂的一樓大廳，這時就還可以直接在裡面參觀的。所以早上就是有時間就逛，沒時間就下午穹頂時候再參觀。"],
+  "map_url":"https://maps.app.goo.gl/bcYeKZEftmgUnBNB9?g_st=ic"
+  },
+  {
+  "id":"lebotteghedidonatello",
+  "name":"Le Botteghe Di Donatello",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、披薩、簡餐",
+  "opening_hours":"11:00～00:00",
+  "map_url":"https://maps.app.goo.gl/k3VFyi8wSBDqy3z7A?g_st=ic"
+  },
+  {
+  "id":"lAnticacantinadelchianti",
+  "name":"L' Antica Cantina del Chianti",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、披薩、簡餐",
+  "opening_hours":"10:00～23:00",
+  "map_url":"https://maps.app.goo.gl/heTUnJRgrepV8vMVA?g_st=ic"
+  },
+  {
+  "id":"brunelleschi'sdome",
+  "name":"穹頂Brunelleschi's dome",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"羅馬式古典圓頂由布魯內雷斯基監督建造，穹頂外部是由不同尺寸的紅瓦覆蓋",
+  "tips":["下午1:30的場次，要提早去教堂北側 Porta Della Mandorla 入口排隊，在入口出示門票QR Code","約 463階，建議穿好走鞋、提早 10–15 分鐘到。只有前段可休息，比較不通風","登頂可以看鐘樓跟市容（紅屋頂海＋阿諾河＋遠山）","沿路能近距離看圓頂上的【最後的審判】濕壁畫，是由文藝復興大師瓦薩里（Giorgio Vasari）與祖卡里（Federico Zuccari）於 1574 年至 1579 年間創作，是全球最大的穹頂壁畫之一"],
+  "map_url":"https://maps.app.goo.gl/yLE9KnV2nhPi6SPRA?g_st=ic"
+  },
+  {
+  "id":"nuvolagelateria",
+  "name":"Nuvola Gelateria",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"爬完穹頂要吃gelato補足體力",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/cns6Mt5icjmKBVTN8?g_st=ic"
+  },
+  {
+  "id":"museoleonardodavinci",
+  "name":"Museo Leonardo Da Vinci",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"達文西博物館，可以與達文西設計的模型互動",
+  "tips":["不能用firenze card免費入場，但可以打折（便宜€1）"],
+  "opening_hours":"09:30～19:30",
+  "map_url":"https://maps.app.goo.gl/49PGxrUNgAVd6Fya6?g_st=ic"
+  },
+  {
   "id":"fornobecagli",
   "name":"Forno Becagli",
   "type":"restaurant",
