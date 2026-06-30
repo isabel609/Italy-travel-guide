@@ -596,6 +596,100 @@
   "map_url":"https://maps.app.goo.gl/49PGxrUNgAVd6Fya6?g_st=ic"
   },
   {
+  "id":"piazzadellasantissimaannunziata",
+  "name":"聖母領報廣場 Piazza della Santissima Annunziata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"是義大利佛羅倫斯極具代表性的文藝復興廣場。由Filippo Brunelleschi等建築大師聯手打造，四周環繞著完美的拱廊建築",
+  "tips":["有兩座海怪噴泉","有機會會有市集可以逛",],
+  "map_url":"https://maps.app.goo.gl/HmFMA4G1x8VaN7u1A?g_st=ic"
+  },
+  {
+  "id":"basilicadellasantissimaanunziata",
+  "name":"佛羅倫斯聖母領報大殿 Basilica della Santissima Annunziata",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"創立於 1250 年，雖然外觀由低調的九孔連廊構成，但內部極其奢華精緻，是佛羅倫斯巴洛克風格裝飾的極致代表，更因「天使作畫」的神蹟傳說而成為全城最重要的瑪利亞朝聖地",
+  "tips":["免費入場","教堂的名字與地位源於一幅神聖的《聖母領報》壁畫。相傳在 1252 年，一位名叫巴托洛米歐（Bartolomeo）的修士受託繪製聖母被天使報喜的場景。但他認為自己技巧平庸，無法畫出聖母無瑕、美麗的容貌而焦慮至極。當他因疲憊睡著後，醒來竟發現聖母的面容已被完美畫好。人們深信這是天使在修士熟睡時下凡代筆的神蹟。","必看空間1:死者中庭 (Chiostro dei Voti)走進教堂大門前會先經過這座充滿自然光的前庭。這裡是一座藝術寶庫，牆上保留了 16 世紀文藝復興大師的頂級壁畫，包括安德烈亞·德爾·薩爾托（Andrea del Sarto）的《聖母誕辰》與《三賢士來朝》、以及蓬托莫（Pontormo）的《聖母訪親》","必看空間2:穿過中庭進入教堂內部，風格會陡然轉變為無比絢麗的巴洛克風。最引人注目的是由沃爾泰拉（Volterrano）設計的巨大鍍金木質天花板，中央繪有華麗的聖母升天圖。這裡也擁有佛羅倫斯最古老（1628 年）、全義大利第二古老的管風琴。"],
+  "opening_hours":"16:00～18:30",
+  "map_url":"https://maps.app.goo.gl/ABTQ4ZTEMnA2PjDLA?g_st=ic"
+  },
+  {
+  "id":"trattoriazàzà",
+  "name":"Trattoria Zà Zà",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"當地很有名的托斯卡尼餐廳，可以預約",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/HtTnLKafg7Wy68Fv6?g_st=ic"
+  },
+  {
+  "id":"roostercafe",
+  "name":"Rooster Cafe Firenze - Porta Rossa",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早午餐店，看起來很好吃",
+  "opening_hours":"8:30～00:00",
+  "map_url":"https://maps.app.goo.gl/eHuXej4GBgnUyDpZ6?g_st=ic"
+  },
+  {
+  "id":"campaniledigiotto",
+  "name":"喬托鐘樓 Campanile di Giotto",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。仿羅馬及哥德式風格",
+  "opening_hours":"8:15～18:45",
+  "tips":["414層階梯，分三層，中間有位置休息。可以看圓頂跟市容，如果有遇到敲鐘時間，鐘聲就在頭頂","* 鐘樓旁的建築有兩座雕像：拿捲軸的是教堂初代設計師岡比歐，眼睛看向圓頂的是布魯內雷斯基"],
+  "map_url":"https://maps.app.goo.gl/wtmj7QEkxGsFdnNb8?g_st=ic"
+  },
+  {
+  "id":"gromgelato",
+  "name":"GROM Gelato",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"爬完樓要一隻gelato",
+  "opening_hours":"10:30～23:00",
+  "map_url":"https://maps.app.goo.gl/6PEUZ67L6zDfG1Gj7?g_st=ic"
+  },
+  {
+  "id":"battisterodisangiovanni",
+  "name":"佛羅倫斯聖若翰洗者洗禮堂 Battistero di San Giovanni",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。建於4世紀的羅馬式建築，外表鑲嵌著白綠兩色大理石，八角形洗禮堂與百花大教堂正門相對",
+  "opening_hours":"8:30～19:30",
+  "tips":["必看：金色馬賽克鑲嵌壁畫天花板","目前建築東邊的天堂之門是複製品"],
+  "map_url":"https://maps.app.goo.gl/HXQ1akgB2kx2mYN86?g_st=ic"
+  },
+  {
+  "id":"cafedelapaix",
+  "name":"Cafe De La Paix",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"咖啡店",
+  "opening_hours":"8:00～01:00",
+  "map_url":"https://maps.app.goo.gl/ab2JiP3c4WAyZq1d8?g_st=ic"
+  },
+  {
+  "id":"museodell'operadelduomodifirenze",
+  "name":"主教座堂博物館 Museo dell'Opera del Duomo di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"百花教堂套票景點之一。全球最重要的雕塑收藏博物館之一，有冷氣跟椅子",
+  "opening_hours":"8:30～18:00",
+  "tips":["一樓天堂廳：天堂之門 by 吉貝帝Lorenzo Ghiberti，青銅鍍金原作 （可以走到二樓的走廊，看天堂之門的細節），門上的浮雕都是在刻畫舊約聖經的故事。米開朗基羅的《班迪尼聖殤 Pietà Bandini》原作雕塑，是米開朗基羅晚年幫自己的墳墓設計的。唐納泰羅的《三位一體》雕刻","二樓：聖母百花大教堂圓頂模型，模型內部也有畫出壁畫《最後的審判》的細節。走到三樓圓頂觀景台展區有天窗，可以看到百花教堂圓頂本人。","三樓：有數位展區，螢幕展示聖若望洗禮堂的360度全景透視，可以看到馬賽克拼貼的細節。","四樓：有室外展區，可以跟聖母百花教堂圓頂合照"],
+  "map_url":"https://maps.app.goo.gl/ZwAYhYfAhA7uWsuMA?g_st=ic"
+  },
+  {
+  "id":"loscudo",
+  "name":"Lo Scudo",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"義大利麵、牛排、披薩",
+  "opening_hours":"11:00～23:00",
+  "map_url":"https://maps.app.goo.gl/X2s1mXqMEeD35qQ6A?g_st=ic"
+  },
+  {
   "id":"fornobecagli",
   "name":"Forno Becagli",
   "type":"restaurant",
