@@ -690,6 +690,35 @@
   "map_url":"https://maps.app.goo.gl/X2s1mXqMEeD35qQ6A?g_st=ic"
   },
   {
+  "id":"pegnadal1860",
+  "name":"Pegna dal 1860",
+  "type":"store",
+  "tags":["商店"],
+  "description":"百年老字號義大利伴手禮店，賣雜貨、零食等",
+  "opening_hours":"10:00～19:00",
+  "map_url":"https://maps.app.goo.gl/sP86kj7bAu8TFwnM7?g_st=ic"
+  },
+  {
+  "id":"bargello",
+  "name":"巴杰羅美術館 Museo Nazionale del Bargello",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"全義大利最重要、蒐藏最頂級的雕塑博物館",
+  "opening_hours":"08:15～18:50",
+  "tips":["可以用firenze card","建於1255，原本是市政長官府，後來變成警察總部與監獄，內部庭院在歷史上曾是執行死刑的場所。","必看1:米開朗基羅《酒神巴庫斯》（Bacco）","必看2:多那太羅《大衛像》（David）是文藝復興時期第一尊獨立的青銅裸體雕像"],
+  "map_url":"https://maps.app.goo.gl/QGkvAuzGZ57YycF4A?g_st=ic"
+  },
+  {
+  "id":"fondazionefrancozeffirellionlus",
+  "name":"Fondazione Franco Zeffirelli Onlus",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"主要展示義大利大師級電影與歌劇導演兼服裝設計師弗蘭科·澤菲雷里（Franco Zeffirelli） 70 年職業生涯的藝術結晶，包含 300 多件珍貴的舞台設計草圖、服裝原稿、戲服模型以及電影劇照。",
+  "opening_hours":"10:00～18:00",
+  "tips":["可以用firenze card"],
+  "map_url":"https://maps.app.goo.gl/YyejHr3dRhg6FKjW8?g_st=ic"
+  },
+  {
   "id":"fornobecagli",
   "name":"Forno Becagli",
   "type":"restaurant",
