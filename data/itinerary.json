@@ -12,8 +12,7 @@
   {
     "day": "day2",
     "title": "Day 2 - 0719",
-    "places": ["romefiumicinoairport0719","florenceperetolaairport0719","trattoriacontadino","trattoriadagiorgio","b.ice","smn","basilicadisantamarianovella","paninomondiale","garbopizzeria","gelateriaartigianalelasorbettiera",
-      "borgoapartment","firenzesantamarianovella0719","veronaportanuova0719","piccoloatticoportanuova","osteriamiola","istanbuldonerkebab","gelaterialaromanadal1947","wolonristorantecinese","midwest25","arenadiverona"]
+    "places": ["romefiumicinoairport0719","florenceperetolaairport0719","firenzewelcomecenter","trattoriacontadino","trattoriadagiorgio","b.ice","orsanmichele","smn","basilicadisantamarianovella","borgoapartment","firenzesantamarianovella0719","veronaportanuova0719","piccoloatticoportanuova","osteriamiola","istanbuldonerkebab","gelaterialaromanadal1947","wolonristorantecinese","midwest25","arenadiverona"]
   },
   {
     "day": "day3",
@@ -35,11 +34,41 @@
   {
     "day": "day6",
     "title": "Day 6 - 0723",
-    "places": ["fornobecagli","shakecafé","galleriadell’accademiadifirenze","alagrandecaffècaffrosanò","museodisanmarco","mercatocentrale","danerbone","bambitrippaelampredotto","pescheriasugarello","palazzomediciriccardi","cappellemedicee","anticagelateriafiorentina","strozzi"]
+    "places": ["fornobecagli","shakecafé","galleriadell’accademiadifirenze","alagrandecaffècaffrosanò","museodisanmarco","mercatocentrale","danerbone","bambitrippaelampredotto","pescheriasugarello","palazzomediciriccardi","cappellemedicee","anticagelateriafiorentina","strozzi","giuntiodeon","ristorantemorellino","pontesantatrinita"]
+  },
+  {
+    "day": "day7",
+    "title": "Day 7 - 0724",
+    "places": [""]
+  },
+  {
+    "day": "day8",
+    "title": "Day 8 - 0725",
+    "places": [""]
+  },
+  {
+    "day": "day9",
+    "title": "Day 9 - 0726",
+    "places": [""]
   },
   {
     "day": "day10",
     "title": "Day 10 - 0727",
     "places": ["borgoapartment0727","piazzamatteotti","pasticceriachianti","labottegadelpane","cosedeborgo","antinorinelchianticlassico","gelateriadondoli","vinainofiorenza","torregrossa","piazzadellacisterna","gelateriadell'olmo","letorris.r.l.","trattoriasostanza","indianafirenze"]
+  },
+  {
+    "day": "day11",
+    "title": "Day 11 - 0728",
+    "places": [""]
+  },
+  {
+    "day": "day12",
+    "title": "Day 12 - 0729",
+    "places": ["florenceperetolaairport0729","romefiumicinoairport0729"]
+  },
+  {
+    "day": "day13",
+    "title": "Day 13 - 0730",
+    "places": ["taoyuaninternationalairportterminal10730"]
   }
 ]
