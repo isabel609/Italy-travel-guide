@@ -127,6 +127,25 @@
   "map_url":"https://maps.app.goo.gl/m5TLmBQfeobjYf3fA"
   },
   {
+  "id":"firenzewelcomecenter",
+  "name":"Firenze Welcome Center",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"旅遊服務中心，可以領firenze card實體卡",
+  "opening_hours":"09:00-19:00",
+  "map_url":"https://maps.app.goo.gl/jsZSkyjLj64LKR2H6?g_st=ic"
+  },
+  {
+  "id":"orsanmichele",
+  "name":"佛羅倫薩聖彌額爾教堂 Chiesa e Museo di Orsanmichele",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"向櫃檯出示Firenze Card 即可直接免費預約烏菲茲美術館跟學院美術館的時段",
+  "opening_hours":"08:30-18:30",
+  "tips":["本身也可以用firenze card進入"],
+  "map_url":"https://maps.app.goo.gl/DsgxJ2xZRR1WYESg6?g_st=ic"
+  },
+  {
   "id":"smn",
   "name":"SMN百年修道士藥妝店",
   "type":"store",
@@ -859,6 +878,33 @@
   "map_url":"https://maps.app.goo.gl/9wqsoBrG7jbip7ZH6?g_st=ic"
   },
   {
+  "id":"giuntiodeon",
+  "name":"Giunti Odeon - Cinema",
+  "type":"store",
+  "tags":["商店"],
+  "description":"一間結合百年劇院與書店的店",
+  "opening_hours":"10:00～20:30",
+  "tips"["有免費座椅可以吹冷氣看影片。","晚上9點之後是電影院，全票€12"],
+  "map_url":"https://maps.app.goo.gl/6kCrDJfQVq7ZohaT6?g_st=ic"
+  },
+  {
+  "id":"ristorantemorellino",
+  "name":"Ristorante Il Morellino",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"可定位，評價高義大利菜",
+  "opening_hours":"12:00-22:30",
+  "map_url":"https://maps.app.goo.gl/Q1TrWKA8RHV6gWM6A?g_st=ic"
+  },
+  {
+  "id":"pontesantatrinita",
+  "name":"聖三一橋 Ponte Santa Trinita",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"漂亮橋，看夕陽夜景",
+  "map_url":"https://maps.app.goo.gl/9hjndcouKsWBVLNe9?g_st=ic"
+  },
+  {
   "id":"borgoapartment0727",
   "name":"Borgo Apartment by Mamo Florence",
   "type":"accommodation",
@@ -984,5 +1030,31 @@
   "description":"印度菜，評價很高，可預約",
   "opening_hours":"18:00-23:00",
   "map_url":"https://maps.app.goo.gl/wRvtxTtGyJjZR14p7?g_st=ic"
+  },
+  {
+  "id":"florenceperetolaairport0729",
+  "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"AZ1676。06:25起飛，預計3:30至4點先到機場退稅",
+  "tips":["坐計程車去機場","可以用apptaxi叫車，或去佛羅倫斯新聖母瑪利亞車站（Stazione di Santa Maria Novella）站前廣場的24 小時排班車輛招呼站"],
+  "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
+  },
+  {
+  "id":"romefiumicinoairport0729",
+  "name":"羅馬法林明高機場\nRome Fiumicino",
+  "type":"transportation",
+  "tags":["交通"],
+  "description":"7:15會先在第一航廈落地，要再去第三航廈轉機，CI76 11:00班機回台灣",
+  "tips":["轉機時間：T1 → T3步行約 10–15 分鐘，若要出境到市區還要先排海關，且到市區交通單程就要40分鐘，所以就在機場逛免稅店最安心便利"],
+  "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
+  },
+  {
+    "id":"taoyuaninternationalairportterminal10730",
+    "name":"桃園機場第一航廈",
+    "type":"transportation",
+    "tags":["交通"],
+    "description":"5:45落地，爬回公司當社畜",
+    "map_url":"https://maps.app.goo.gl/eiZf5Wx4ymjWB7zL6"
   }
 ]
