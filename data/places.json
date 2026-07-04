@@ -705,7 +705,7 @@
   "tags":["景點"],
   "description":"全義大利最重要、蒐藏最頂級的雕塑博物館",
   "opening_hours":"08:15～18:50",
-  "tips":["可以用firenze card","建於1255，原本是市政長官府，後來變成警察總部與監獄，內部庭院在歷史上曾是執行死刑的場所。","必看1:米開朗基羅《酒神巴庫斯》（Bacco）","必看2:多那太羅《大衛像》（David）是文藝復興時期第一尊獨立的青銅裸體雕像"],
+  "tips":["可以用firenze card","建於1255，原本是市政長官府，後來變成警察總部與監獄，內部庭院在歷史上曾是執行死刑的場所。","必看1:米開朗基羅《酒神巴庫斯》（Bacco）（在羅馬受到羅馬帝國古遺蹟到啟發，21歲時創作的第一件超過2公尺的大型作品，被認為是羅馬文藝復興的最佳代表作）、《聖母子》，主要放在一樓","必看2:多那太羅《大衛像》（David）是文藝復興時期第一尊獨立的青銅裸體雕像，主要作品在二樓"],
   "map_url":"https://maps.app.goo.gl/QGkvAuzGZ57YycF4A?g_st=ic"
   },
   {
@@ -717,6 +717,24 @@
   "opening_hours":"10:00～18:00",
   "tips":["可以用firenze card"],
   "map_url":"https://maps.app.goo.gl/YyejHr3dRhg6FKjW8?g_st=ic"
+  },
+  {
+  "id":"vivoli",
+  "name":"Vivoli",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"8:00～21:00",
+  "map_url":"https://maps.app.goo.gl/6wwxP2CpNMAEApDn6?g_st=ic"
+  },
+  {
+  "id":"starchickengourmet",
+  "name":"StarChicken Gourmet",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"炸雞店，評價很高",
+  "opening_hours":"18:00～22:00",
+  "map_url":"https://maps.app.goo.gl/cHG9xemTvzBjKSWq9?g_st=ic"
   },
   {
   "id":"fornobecagli",
@@ -804,12 +822,41 @@
   {
   "id":"palazzomediciriccardi",
   "name":"美第奇 - 里卡迪宮 Palazzo Medici Riccardi",
-  "type":"atteaction",
+  "type":"attraction",
   "tags":["景點"],
   "description":"美第奇家族委託米開羅佐Michelozzo建於15世紀的的私人宮殿",
   "opening_hours":"9:00～19:00",
   "tips":["可用firenze card","三王禮拜堂（Cappella dei Magi）:牆上是 Benozzo Gozzoli 的《三王來朝》系列壁畫，看似宗教故事，其實偷偷把許多美第奇家族成員畫進去","文藝復興中庭:由 Michelozzo 設計的庭院是文藝復興建築的重要範例，氣氛非常典雅安靜","鏡廳（Galleria di Luca Giordano）:後來里卡迪家族買下宮殿後，加入大量巴洛克風格裝飾。天花板上是 Luca Giordano 的巨幅濕壁畫《美第奇家族的榮耀》，非常華麗。"],
   "map_url":"https://maps.app.goo.gl/BT4NW1VK4Y7T5DcF6?g_st=ic"
+  },
+  {
+  "id":"cappellemedicee",
+  "name":"美第奇小聖堂 Cappelle Medicee",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"梅第奇家族的陵墓",
+  "opening_hours":"8:15～18:50",
+  "tips":["可用firenze card","王子小聖堂（Cappella dei Principi）：一座極其宏偉的八角形圓頂大廳，牆面全由無價的彩色大理石、花崗岩及寶石鑲嵌而成","新祭衣間（Sagrestia Nuova）:是米開朗基羅設計的，幕上有四尊雕像分別被命名為白晝、黑夜、黎明、黃昏","地下墓室（Crypt）：這裡安放著美第奇家族歷代托斯卡納大公及其家屬的棺木，包含著名的科西莫一世（Cosimo I）"],
+  "map_url":"https://maps.app.goo.gl/77ALzudLYKugdjFR9?g_st=ic"
+  },
+  {
+  "id":"anticagelateriafiorentina",
+  "name":"Antica Gelateria Fiorentina",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"12:30-10:30",
+  "map_url":"https://maps.app.goo.gl/2z8mmKSn9yKr7hD87?g_st=ic"
+  },
+  {
+  "id":"strozzi",
+  "name":"斯特羅齊宮 Palazzo Strozzi",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"美第奇的宿敵豪宅：由當時實力雄厚的銀行家飛利浦·斯特羅齊（Filippo Strozzi）於 1489 年下令興建。為了在聲勢上壓過美第奇家族，這座宮殿的規模甚至比美第奇-里卡迪宮還要更為宏大",
+  "opening_hours":"10:00～20:00",
+  "tips":["可用firenze card，常設展跟特展都可以看","佛羅倫斯最頂尖的當代與現代藝術展覽中心","目前特展是美國現代抽象表現主義大師馬克·羅斯科（Mark Rothko）在義大利極為罕見的大型回顧特展","宮殿正中央的露天拱廊中庭很漂亮"],
+  "map_url":"https://maps.app.goo.gl/9wqsoBrG7jbip7ZH6?g_st=ic"
   },
   {
   "id":"borgoapartment0727",
