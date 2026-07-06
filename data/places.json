@@ -905,6 +905,89 @@
   "map_url":"https://maps.app.goo.gl/9hjndcouKsWBVLNe9?g_st=ic"
   },
   {
+  "id":"mercatodisant’ambrogio",
+  "name":"Mercato di Sant’Ambrogio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯最熱鬧、最道地的市集之一。它分為室內和室外兩部分。室內市場匯集了琳瑯滿目的熟食店、美食攤位和當地餐廳，提供新鮮道地的特色美食。戶外市場則以新鮮水果蔬菜為主，還有眾多攤販販售從服飾配件到鞋履和家居用品等各種商品。這裡是享用美食、體驗當地文化和淘到物美價廉商品的絕佳去處。",
+  "map_url":"https://maps.app.goo.gl/9hjndcouKsWBVLNe9?g_st=ic"
+  },
+  {
+  "id":"caffetteriadelvecchiomercato",
+  "name":"Caffetteria del Vecchio Mercato",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"市場內咖啡廳，有咖啡、麵包等，當早餐",
+  "opening_hours":"07:00–14:00",
+  "map_url":"https://maps.app.goo.gl/r8WZEf3JR4SseuS19"
+  },
+  {
+  "id":"iltrippaiodisant'ambrogio",
+  "name":"Il Trippaio Di Sant'Ambrogio",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"市場內餐廳，有賣牛肚包，評價很高",
+  "opening_hours":"07:00–14:00",
+  "map_url":"https://maps.app.goo.gl/vKfMWWYFKaLihCML7"
+  },
+  {
+  "id":"basilicadisantacrocedifirenze",
+  "name":"聖十字聖殿 Basilica di Santa Croce di Firenze",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"新哥德式的聖方濟教堂，裡面有好幾個附屬禮拜堂。知名特色為喬托所繪的壁畫，以及埋葬米開朗基羅、但丁（衣冠塚）、佩脫拉克、伽利略、馬基維利、唐納太羅、羅西尼等名人",
+  "tips":["可以用firenze card","教堂中庭有一間巴茲 Pazzi家族的禮拜堂，是布魯內列斯基設計，唐納太羅製作細部","冷知識 : Pazzi家族跟梅第奇家族是死對頭"],
+  "opening_hours":"週一到週六9:30～17:30、週日12:30～17:45",
+  "map_url":"https://maps.app.goo.gl/dMqHcDMdXhJGVhC7A"
+  },
+  {
+  "id":"scuoladelcuoios.r.l.",
+  "name":"Scuola del Cuoio S.r.l.",
+  "type":"store",
+  "tags":["商店"],
+  "description":"歷史悠久的知名皮革學校，有工匠現場手工製作的包包、皮帶和夾克",
+  "opening_hours":"10:00–18:30",
+  "map_url":"https://maps.app.goo.gl/DGHTGHHdbZamZFRf9"
+  },
+  {
+  "id":"gelateriadeineri",
+  "name":"Gelateria dei Neri",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"10:30–00:00",
+  "map_url":"https://maps.app.goo.gl/wN81Dn5BN9dg9Ybw6"
+  },
+  {
+  "id":"pizzanapoli1955",
+  "name":"Pizza Napoli 1955",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"pizza店，價格落在€10-20",
+  "opening_hours":"12:00–22:00",
+  "map_url":"https://maps.app.goo.gl/6fGAvQD2msJnRErx9"
+  },
+  {
+  "id":"palazzovecchio",
+  "name":"舊宮 Palazzo Vecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"哥德式（岡比歐）+文藝復興風格（瓦薩利）的建築，以前是梅第奇家族的府邸，後來碧提宮建成後，舊宮才成為市政廳",
+  "tips":["可以用firenze card，並且可以在app上用卡片代碼進行時段預約，或是現場劃可以入場的時段","可登塔，看屋頂樑架與城景，但這必須預約","內部廳室富麗堂皇，拍照很美，「五百人大廳 Salone dei Cinquecento」是舊宮最值得看的地方，天花板跟牆上裝飾著滿滿瓦薩利跟他學生的濕壁畫，描述佛羅倫斯戰勝比薩跟西恩納的戰役。"],
+  "opening_hours":"舊宮9:00～19:00（週四到14:00）、高塔週一～週五9:00～17:00（週四到14:00）",
+  "map_url":"https://maps.app.goo.gl/FHf3N4NFxJr6CXAC7"
+  },
+  {
+  "id":"piazzadellasignoria",
+  "name":"領主廣場 Piazza della Signoria",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"哥德式（岡比歐）+文藝復興風格（瓦薩利）的建築，以前是梅第奇家族的府邸，後來碧提宮建成後，舊宮才成為市政廳",
+  "tips":["可以用firenze card，並且可以在app上用卡片代碼進行時段預約，或是現場劃可以入場的時段","可登塔，看屋頂樑架與城景，但這必須預約","內部廳室富麗堂皇，拍照很美，「五百人大廳 Salone dei Cinquecento」是舊宮最值得看的地方，天花板跟牆上裝飾著滿滿瓦薩利跟他學生的濕壁畫，描述佛羅倫斯戰勝比薩跟西恩納的戰役。"],
+  "opening_hours":"舊宮9:00～19:00（週四到14:00）、高塔週一～週五9:00～17:00（週四到14:00）",
+  "map_url":"https://maps.app.goo.gl/FHf3N4NFxJr6CXAC7"
+  },
+  {
   "id":"borgoapartment0727",
   "name":"Borgo Apartment by Mamo Florence",
   "type":"accommodation",
