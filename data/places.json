@@ -959,6 +959,15 @@
   "map_url":"https://maps.app.goo.gl/wN81Dn5BN9dg9Ybw6"
   },
   {
+  "id":"all’anticovinaio",
+  "name":"All’Antico Vinaio",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"47,042多則google評論，4.5顆星佛卡夏三明治店，感覺很厲害",
+  "opening_hours":"10:00–22:00",
+  "map_url":"https://maps.app.goo.gl/tEMfbMF67YQ9G5RD9"
+  },
+  {
   "id":"pizzanapoli1955",
   "name":"Pizza Napoli 1955",
   "type":"restaurant",
@@ -966,6 +975,43 @@
   "description":"pizza店，價格落在€10-20",
   "opening_hours":"12:00–22:00",
   "map_url":"https://maps.app.goo.gl/6fGAvQD2msJnRErx9"
+  },
+  {
+  "id":"galleriadegliuffizi",
+  "name":"烏菲茲美術館 Galleria degli Uffizi",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"原是由瓦薩利建造的辦公室，後來改成麥迪奇家族的收藏展覽室",
+  "tips":["可以用firenze card，並且要在第一天去佛羅倫薩聖彌額爾教堂櫃檯預約入場時段","波提切利：《維納斯的誕生》《春神 La Primavera》《誹謗 The Calumny of Apelles》","拉斐爾 RaffaelloSanzio：《金翅雀的聖母 Madonna of the Goldfinch》《年輕自畫像Self-portrait》","卡拉瓦喬Caravaggio：《酒神 Bacchus》","提香Vecellio Tiziano：《弗蘿拉Flora》《烏比諾的維納斯The Venus of Urbino》","達文西 Leonardo da Vinci：《三博士來朝Adorazionedei Magi》","西方繪畫之父&文藝復興開創者-喬托Giotto di Bondone：《莊嚴聖母 Maestà》","法蘭契斯卡Piero Della Francesca：《烏比諾公爵及夫人 Diptych of the Duchess and Duke of Ubino 》","利比 Filippo Lippi：《聖母、聖嬰和天使 Madonna with child and two angles》","米開朗基羅：《聖家族 Doni Tondo及畫框》","杜勒Albrecht Dürer：《賢士來朝 Adoration of the Magi》","貝里尼 Giovanni Bellini：《神聖的預言 Sacred Allergony》","林布蘭 Rembrandt van Rign：《自畫像》","魯本斯 Rubens：《伊莎貝拉．班達畫像 Portrait of Isabella Brandt》"],
+  "opening_hours":"週二至週日8:15～18:30",
+  "map_url":"https://maps.app.goo.gl/ZNreb8Gje7S6hUqUA"
+  },
+  {
+  "id":"piazzadellasignoria",
+  "name":"領主廣場 Piazza della Signoria",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利佛羅倫斯的心臟地帶。這座L型廣場自中世紀以來即是佛羅倫斯的政治與歷史中心，被譽為免費的露天博物館",
+  "tips":["海神噴泉Fontana di Nettuno：阿曼迪那（Ammannati）的作品，白色大理石的海神四周被青銅造型的仙子跟牧神包圍","傭兵敞廊Loggia dei Lanzi：最早用來給舊宮的外賓跟官員遮風擋雨，可看切里尼的《佩賽歐》（Perseo），描述帕休斯斬下妖怪梅杜莎的頭"],
+  "map_url":"https://maps.app.goo.gl/ioJ6XBuk7LgvRutV6"
+  },
+  {
+  "id":"spezieriepalazzovecchio",
+  "name":"Spezierie Palazzo Vecchio",
+  "type":"store",
+  "tags":["商店"],
+  "description":"香水店",
+  "opening_hours":"10:00–19:30",
+  "map_url":"https://maps.app.goo.gl/Z9rFidsY9iLFE16m9"
+  },
+  {
+  "id":"rivoire",
+  "name":"Rivoire",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"百年咖啡廳，招牌是熱巧克力，站著喝便宜很多",
+  "opening_hours":"08:00–22:00",
+  "map_url":"https://maps.app.goo.gl/b5jyWC2VVaTmN2ZR7"
   },
   {
   "id":"palazzovecchio",
@@ -978,14 +1024,22 @@
   "map_url":"https://maps.app.goo.gl/FHf3N4NFxJr6CXAC7"
   },
   {
-  "id":"piazzadellasignoria",
-  "name":"領主廣場 Piazza della Signoria",
-  "type":"attraction",
-  "tags":["景點"],
-  "description":"哥德式（岡比歐）+文藝復興風格（瓦薩利）的建築，以前是梅第奇家族的府邸，後來碧提宮建成後，舊宮才成為市政廳",
-  "tips":["可以用firenze card，並且可以在app上用卡片代碼進行時段預約，或是現場劃可以入場的時段","可登塔，看屋頂樑架與城景，但這必須預約","內部廳室富麗堂皇，拍照很美，「五百人大廳 Salone dei Cinquecento」是舊宮最值得看的地方，天花板跟牆上裝飾著滿滿瓦薩利跟他學生的濕壁畫，描述佛羅倫斯戰勝比薩跟西恩納的戰役。"],
-  "opening_hours":"舊宮9:00～19:00（週四到14:00）、高塔週一～週五9:00～17:00（週四到14:00）",
-  "map_url":"https://maps.app.goo.gl/FHf3N4NFxJr6CXAC7"
+  "id":"osteriadell'orcagna",
+  "name":"Osteria dell'Orcagna",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"晚餐 - pizza、義大利麵、提拉米蘇，可預定",
+  "opening_hours":"10:30–00:00",
+  "map_url":"https://maps.app.goo.gl/ap37tnwxzud13vpq8"
+  },
+  {
+  "id":"s.forno",
+  "name":"S.forno",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早餐 - 看起來很讚的麵包店，可以內用",
+  "opening_hours":"08:00–19:30",
+  "map_url":"https://maps.app.goo.gl/LXzEobi9MjGVWy9F7"
   },
   {
   "id":"borgoapartment0727",
