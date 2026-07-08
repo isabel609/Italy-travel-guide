@@ -1042,6 +1042,125 @@
   "map_url":"https://maps.app.goo.gl/LXzEobi9MjGVWy9F7"
   },
   {
+  "id":"basilicadisantospirito",
+  "name":"佛羅倫斯聖神大殿 Basilica di Santo Spirito",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"外觀素雅的 15 世紀教堂，由布魯內萊斯基設計，有著充滿藝術氣息的華麗內部裝潢，以及巴洛克式聖壇",
+  "tips":["本身免費，但教堂內部的「聖器收藏室」（內有著名的米開朗基羅十字架）需額外付費約 €2"],
+  "opening_hours":"11:30–13:30/15:00–18:00",
+  "map_url":"https://maps.app.goo.gl/R4Lxj9pPyY6KKMq98"
+  },
+  {
+  "id":"mancusogelatiitaliani1920",
+  "name":"Mancuso Gelati Italiani 1920",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato、affogato、熱巧克力",
+  "opening_hours":"11:00–22:00",
+  "map_url":"https://maps.app.goo.gl/M9ATkdxigoVpGmXW8"
+  },
+  {
+  "id":"palazzopitti",
+  "name":"彼提宮 Palazzo Pitti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"由佛羅倫斯銀行家盧卡·皮蒂（Luca Pitti）於 1458 年開始建造，1549 年被美第奇家族買下，成為該家族的主要居所。曾是托斯卡尼大公國、波旁家族及義大利國王的王宮。現在是有很多博物館的複合式藝廊。",
+  "tips":["兌換憑證：如果持有firenze card，不能直接刷卡進場，需要先至彼提宮內的阿曼納提中庭（Ammannati Courtyard）領取參觀憑證","票券效期：該憑證必須妥善保存，並在整張卡片的有效期限內使用","參觀範圍：持卡可參觀彼提宮內的博物館群與波波里花園","有一個大公寶庫（Grand Dukes' Treasury）：展出美第奇家族收藏的貴重金銀珠寶、水晶和半寶石"],
+  "opening_hours":"08:15–18:30",
+  "map_url":"https://maps.app.goo.gl/EtVcisLD1KM9kHZV8"
+  },
+  {
+  "id":"galleriapalatina",
+  "name":"帕拉提納美術館 Galleria Palatina",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"收藏大量文藝復興大師（如拉斐爾、提香、魯本斯）的畫作",
+  "tips":["想看拉斐爾 <椅子上的聖母> <戴面紗的少女>"],
+  "opening_hours":"08:30–19:00",
+  "map_url":"https://maps.app.goo.gl/m1TKAARcGwCNF3U27"
+  },
+  {
+  "id":"galleriad’artemoderna",
+  "name":"近代美術館 Galleria d’Arte Moderna",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"展示 18 世紀末至 20 世紀初的義大利藝術品",
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/zvQC5HAFYP9GDoX67"
+  },
+  {
+  "id":"museumofcostumeandfashion",
+  "name":"Museum of Costume and Fashion",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"展示18~20世紀宮廷服裝，是義大利最重要的時尚博物館",
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/5NLnqySqrCQpJ5AF9"
+  },
+  {
+  "id":"giardinodiboboli",
+  "name":"波波里花園 Giardino di Boboli",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"義大利宮廷花園",
+  "tips":["布翁塔倫蒂石洞（Buontalenti Grotto）：花園最具代表性的建築。外觀仿天然岩洞，內部裝飾著鐘乳石、貝殼以及精美的壁畫與雕像。","露天劇場（The Amphitheatre）：位於宮殿正後方，最初是為了美第奇家族的慶典與戲劇表演而建。中央矗立著一座來自古埃及的方尖碑。","海神噴泉（Neptune's Fountain）：由佛羅倫斯人戲稱為「叉子噴泉」，中央有海神波賽頓手持三叉戟的英姿。","騎士花園（Knight's Garden）：位於花園頂端，這裡種滿玫瑰，且居高臨下，是俯瞰佛羅倫斯鄉村風景與托斯卡尼丘陵的最佳觀景點。","絲柏大道（Viottolone）：一條由高大絲柏樹組成的林蔭大道，兩側排列著古典雕像，一直延伸到人工島噴泉（Isolotto）。"],
+  "opening_hours":"08:15–19:10",
+  "map_url":"https://maps.app.goo.gl/KEe1SUY5tmvZPLuc8"
+  },
+  {
+  "id":"chioscoaibardini",
+  "name":"Chiosco Ai Bardini",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"白日看風景喝酒的秘密景點餐廳",
+  "map_url":"https://maps.app.goo.gl/FXxHVh2D1ab1rYDY6"
+  },
+  {
+  "id":"giardinobardini",
+  "name":"巴爾迪尼花園 Giardino Bardini",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯的一座文藝復興式優雅庭園，坐落在聖尼可羅區（San Niccolò）的山坡上。花園最高處視野極佳，能以近乎平視的角度完美捕捉聖母百花大教堂的圓頂、老橋與阿諾河畔風光，被公認為俯瞰佛羅倫斯天際線的最佳觀景台。",
+  "tips":["可以用firenze card","巴爾迪尼花園與波波里花園有步道相通"],
+  "opening_hours":"10:00–19:30",
+  "map_url":"https://maps.app.goo.gl/msCrD1KvK8eB14KJ9"
+  },
+  {
+  "id":"piazzalemichelangelo",
+  "name":"米開朗基羅廣場 Piazzale Michelangelo",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"佛羅倫斯必去看夕陽聖地",
+  "map_url":"https://maps.app.goo.gl/R2jkfmk8utVsHHKf8"
+  },
+  {
+  "id":"mozza&bollicine",
+  "name":"Mozza & bollicine Firenze",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"吃晚餐~ 有檸檬酒跟朝鮮薊，可以定位",
+  "opening_hours":"12:30–22:30",
+  "map_url":"https://maps.app.goo.gl/7hUpmDdHeWgH94RKA"
+  },
+  {
+  "id":"cantinadel",
+  "name":"Cantina del Gelato Il Gelato Artigianale",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"11:15–23:00",
+  "map_url":"https://maps.app.goo.gl/jrxzamrqh1rCa3kJA"
+  },
+  {
+  "id":"pontevecchio",
+  "name":"老橋 Ponte Vecchio",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"必去景點之一。如詩如畫的中世紀拱形河橋，起源於羅馬，兩側有珠寶和紀念品商店",
+  "map_url":"https://maps.app.goo.gl/uRyKxQUYe8JXSowf7"
+  },
+  {
   "id":"borgoapartment0727",
   "name":"Borgo Apartment by Mamo Florence",
   "type":"accommodation",
@@ -1167,6 +1286,23 @@
   "description":"印度菜，評價很高，可預約",
   "opening_hours":"18:00-23:00",
   "map_url":"https://maps.app.goo.gl/wRvtxTtGyJjZR14p7?g_st=ic"
+  },
+  {
+  "id":"shoppingday",
+  "name":"市區shopping",
+  "type":"store",
+  "tags":["交通"],
+  "description":"買買買，把信用卡額度刷完",
+  "map_url":"https://maps.app.goo.gl/jGv7DNaGchVDGL9S9"
+  },
+  {
+  "id":"themallfirenze",
+  "name":"The Mall Firenze",
+  "type":"store",
+  "tags":["商店"],
+  "description":"郊外的大型outlet，搭計程車去",
+  "opening_hours":"10:00–20:00",
+  "map_url":"https://maps.app.goo.gl/Z7LcGq1GvqJLAPSR7"
   },
   {
   "id":"florenceperetolaairport0729",
