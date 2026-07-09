@@ -1375,7 +1375,7 @@
   {
   "id":"themallfirenzebusstop",
   "name":"The Mall Firenze Bus Stop",
-  "type":transportation",
+  "type":"transportation",
   "tags":["交通"],
   "description":"the mall firenze的接駁車站點，車程約40分鐘左右抵達。搭車時跟司機買票",
   "tips":["firenze > the mall firenze:8:50、9:10、9:30、10:00、11:00、12:00","the mall firenze > firenze:15:00、16:00、17:00、18:00、19:20","來回車票15歐"],
