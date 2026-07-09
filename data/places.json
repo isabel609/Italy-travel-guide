@@ -67,7 +67,7 @@
   },
   {
   "id":"romefiumicinoairport0719",
-  "name":"羅馬法林明高機場\nRome Fiumicino",
+  "name":"羅馬菲烏米奇諾機場\nRome Fiumicino",
   "type":"transportation",
   "tags":["交通"],
   "description":"7:35會先在第三航廈落地，要再去第一航廈轉機去佛羅倫斯",
@@ -1033,6 +1033,83 @@
   "map_url":"https://maps.app.goo.gl/ap37tnwxzud13vpq8"
   },
   {
+  "id":"oziobistro",
+  "name":"Òzio Bistro",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"早午餐，一盤一盤那種早午餐!!",
+  "opening_hours":"7:30–19:00",
+  "map_url":"https://maps.app.goo.gl/8szqCKv3Zpenibz9A"
+  },
+  {
+  "id":"ognissanti",
+  "name":"佛羅倫斯諸聖教堂 Chiesa di San Salvatore in Ognissanti",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"波提且利長眠之地、喬托的巨大十字架",
+  "tips":["免費的","教堂隔壁的修道院食堂（Cenacolo di Ognissanti）收藏了基爾蘭戴奧極為震撼的《最後的晚餐》濕壁畫（據說達文西曾在此借鑑靈感）"],
+  "opening_hours":"09:00–13:00",
+  "map_url":"https://maps.app.goo.gl/BdBEFu3JndLTW8Z78"
+  },
+  {
+  "id":"hzero",
+  "name":"Museo HZERO",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"鐵路現代私人博物館",
+  "tips":["不能用fienze card，要另外買票","全歐最大的鐵路模型之一：展館核心是一個佔地 280 平方公尺（縮小比例 1/87 的 H0 軌距）的巨大微型鐵路模型。","現場有結合縮小版義大利與歐洲城鎮、高山森林及海岸景觀的晝夜燈光秀，搭配栩栩如生的環境音效，十分療癒。","老電影院改建"],
+  "opening_hours":"10:00–19:00",
+  "map_url":"https://maps.app.goo.gl/WM4VgS9bLduU7G8W7"
+  },
+  {
+  "id":"museoferragamo",
+  "name":"菲拉格慕博物館 Museo Ferragamo",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"意大利經典鞋匠Salvatore Ferragamo的博物館，館內收藏了超過 100,000 雙鞋履模型與歷史珍品，包含 1930 年代的軟木塞楔形鞋、1947 年的 F 形鞋跟以及透明尼龍線隱形高跟鞋等",
+  "tips":["可以用firenze card","位於13 世紀宮殿:費羅尼-斯皮尼宮（Palazzo Spini Feroni）地下室","展出創辦人為奧黛麗·赫本、瑪麗蓮·夢露、葛麗泰·嘉寶等傳奇影星設計的珍貴歷史鞋款與影像紀錄。"],
+  "opening_hours":"10:30–19:30",
+  "map_url":"https://maps.app.goo.gl/MnUEbY7yYFXrAfdS6"
+  },
+  {
+  "id":"davanzati",
+  "name":"達萬紮蒂宮 Museo di Palazzo Davanzati",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"建於 14 世紀的歷史宮殿，現為佛羅倫斯老房子博物館，向世人展示中世紀至文藝復興時期富裕商人的真實生活場景。",
+  "tips":["可以用firenze card","由富裕的羊毛布商達維齊家族（Davizzi）於 1350 年左右建造完成。1516 年售予巴托利尼家族（Bartolini），隨後於 1578 年被佛羅倫斯歷史學家兼文學家 Bernardo Davanzati 買下，從此得名並在正門掛上家族徽章。1904 年由古董商 Elia Volpi 購入並精心修復，搜集了大量中世紀與文藝復興時期的家具擺設，恢復其昔日風采。"],
+  "opening_hours":"08:15–18:50",
+  "map_url":"https://maps.app.goo.gl/b7agfdTsPAYnT8Yo8"
+  },
+  {
+  "id":"perchéno",
+  "name":"Perché no!",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"gelato",
+  "opening_hours":"11:00–20:00",
+  "map_url":"https://maps.app.goo.gl/QKyL39aAhQffkju4A"
+  },
+  {
+  "id":"orsanmichele0725",
+  "name":"佛羅倫薩聖彌額爾教堂兼博物館 Chiesa e Museo di Orsanmichele",
+  "type":"attraction",
+  "tags":["景點"],
+  "description":"融合宗教、市民經濟與文藝復興藝術的獨特立體建築，裡面畫滿了中世紀壁畫",
+  "tips":["可以用firenze card","這裡最初不是教堂，而是建於 1337 年的穀物市場與儲藏穀倉。直到 14 世紀末期才被改建為佛羅倫斯各大商業行會的專屬教堂，其外牆的 14 個雕塑壁龕更被譽為「文藝復興初期雕塑的露天美術館」","為了避免風化破壞，目前外牆上的所有雕像均為複製品。除了唐納太羅的《聖喬治》真跡被移至巴傑羅美術館外，其餘 13 尊文藝復興大師真跡皆存放在教堂樓上的博物館中"],
+  "opening_hours":"08:30–18:30",
+  "map_url":"https://maps.app.goo.gl/MfoA1bRRQ3LTw9FA7"
+  },
+  {
+  "id":"chianineria",
+  "name":"Trattoria Dalloste Chianineria",
+  "type":"restaurant",
+  "tags":["餐廳"],
+  "description":"有名的牛排館，可以預約",
+  "opening_hours":"11:00–22:30",
+  "map_url":"https://maps.app.goo.gl/vpXardxEXciEAKRg7"
+  },
+  {
   "id":"s.forno",
   "name":"S.forno",
   "type":"restaurant",
@@ -1296,11 +1373,20 @@
   "map_url":"https://maps.app.goo.gl/jGv7DNaGchVDGL9S9"
   },
   {
+  "id":"themallfirenzebusstop",
+  "name":"The Mall Firenze Bus Stop",
+  "type":transportation",
+  "tags":["交通"],
+  "description":"the mall firenze的接駁車站點，車程約40分鐘左右抵達。搭車時跟司機買票",
+  "tips":["firenze > the mall firenze:8:50、9:10、9:30、10:00、11:00、12:00","the mall firenze > firenze:15:00、16:00、17:00、18:00、19:20","來回車票15歐"],
+  "map_url":"https://maps.app.goo.gl/8CPjxMjKy3qq9Pj77"
+  },
+  {
   "id":"themallfirenze",
   "name":"The Mall Firenze",
   "type":"store",
   "tags":["商店"],
-  "description":"郊外的大型outlet，搭計程車去",
+  "description":"郊外的大型outlet，搭接駁車去。我們去的時候剛好會遇到折扣季!!!而且在購物中心裡就可以先辦理退稅",
   "opening_hours":"10:00–20:00",
   "map_url":"https://maps.app.goo.gl/Z7LcGq1GvqJLAPSR7"
   },
@@ -1309,17 +1395,17 @@
   "name":"佛羅倫斯佩雷托拉機場\nFlorence Peretola",
   "type":"transportation",
   "tags":["交通"],
-  "description":"AZ1676。06:25起飛，預計3:30至4點先到機場退稅",
-  "tips":["坐計程車去機場","可以用apptaxi叫車，或去佛羅倫斯新聖母瑪利亞車站（Stazione di Santa Maria Novella）站前廣場的24 小時排班車輛招呼站"],
+  "description":"AZ1676。06:25起飛，預計3:30~4:00先到機場",
+  "tips":["坐計程車去機場,可以用apptaxi叫車，或去佛羅倫斯新聖母瑪利亞車站（Stazione di Santa Maria Novella）站前廣場的24 小時排班車輛招呼站","只要同一人在同一家商店消費超過70 歐元就能退稅","旅客離開之前不可以使用要退稅的產品，也不可以移除產品標籤","結帳時記得主動跟店員說要退稅，並填寫「退稅單(Tax Free Form)」，國籍填寫 Taiwan","在店家結帳拿到退稅單時，請務必現場檢查！很多店員會把國籍打錯，最常見的就是被打成China，這樣就不能退稅了","退稅建議退信用卡手續費比較低，約5~15天入帳","!!!!托運行李!!!!裡東西的退稅手續必須在「佛羅倫斯機場」完成，因為我們是行李直掛。","step 1:到航空公司櫃檯辦理登機，秤重並貼上直掛到台灣的行李條。一定要告知地勤裡面有退稅品，請地勤貼完行李條後把大行李箱還給我們","step 2：推著行李前往佛羅倫斯機場的海關辦公室（Customs / Dogana）。出示護照、電子機票（或登機證）、退稅單與大行李箱。海關電子核准（或蓋章）後，直接在海關指定的行李輸送帶將大行李箱送走。","step 3：行李送走後，直接在佛羅倫斯機場的退稅櫃檯（如 Global Blue 等）辦理退款（退信用卡或拿現金）。"],
   "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
   },
   {
   "id":"romefiumicinoairport0729",
-  "name":"羅馬法林明高機場\nRome Fiumicino",
+  "name":"羅馬菲烏米奇諾機場\nRome Fiumicino",
   "type":"transportation",
   "tags":["交通"],
-  "description":"7:15會先在第一航廈落地，要再去第三航廈轉機，CI76 11:00班機回台灣",
-  "tips":["轉機時間：T1 → T3步行約 10–15 分鐘，若要出境到市區還要先排海關，且到市區交通單程就要40分鐘，所以就在機場逛免稅店最安心便利"],
+  "description":"7:15會先在第一航廈落地，要再去第三航廈轉機，CI76 11:00班機回台灣。!!!!手提行李!!!!裡的東西退稅是要在離開歐盟的最後一個機場（即羅馬機場）辦理退稅手續。",
+  "tips":["轉機時間：T1 → T3步行約 10–15 分鐘，若要出境到市區還要先排海關，且到市區交通單程就要40分鐘，所以就在機場逛免稅店 (羅馬機場的商品會直接扣除 22% 的 VAT增值稅)+退稅最安心便利","可以在第三航廈的管制區內外找VAT Refund藍色方框標示的退稅招牌，並透過自助機台辦理退稅，成功退稅會顯示旅色勾勾。操作方式:選擇語言(可選擇中文) → 掃描護照 → 系統自動載入購物記錄 → 勾選欲退稅的商品 → 選擇退稅方式(信用卡、現金) → 退稅完成 → 若選擇現金會出現退稅現金櫃台指引。","羅馬有自助機台退稅比較方便，建議把免稅商品都放在手提行李，就可以統一到羅馬再退稅"],
   "map_url":"https://maps.app.goo.gl/p8sDg9JP7UiorDFe7"
   },
   {
