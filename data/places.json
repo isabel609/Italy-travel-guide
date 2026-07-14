@@ -88,9 +88,7 @@
   "description":"10:40落地",
   "tips":["前往市區交通 : 可搭計程車或T2有軌電車",
       "計程車：從機場到市區車程約15分鐘。出關後，向右轉，朝著計程車排隊區走。假日固定車資約€30 + 每件大行李會額外收約 €1.2（以5件算，約€6）+機場出發加價€3，所以總共大概€40。告訴司機要去Borgo ognissanti(最靠近住宿的計程車下車點)",
-      "T2有軌電車：週日到週四早上5:00～晚上12:30、週五到週六早上5:00～凌晨2:00；搭乘位置就在航廈出境大廳出口外面，找 「Tramvia」 或 「T2」 的電車圖示指標，步行約 2 分鐘即可抵達；平均10～20分鐘一班，車程約20分鐘，坐往市區 Unità 方向，在Alamanni - Stazione 站下車（此站即是佛羅倫斯中央車站 SMN 旁的路面電車站，離住宿地點走路5～6分鐘）；一人車資單程€1.70 + 一間大型行李要再€1.70，可以用現金或信用卡在自動售票機購票。買完票上車後，務必將車票插入車廂內的黃色打票機印上時間，若未打票，遇到查票會被視為逃票並處以高額罰款",
-      "行李寄放 : 問飯店提早到能不能先寄放行李，若不能，住宿或車站附近可以預約寄放點 (透過 Radical Storage預約)，若在住宿附近下車，建議預約Piazza Ognissanti附近，比較安全也離住宿點近，4 件行李 3 小時約 €20 - €24" 
-  ],
+      "T2有軌電車：週日到週四早上5:00～晚上12:30、週五到週六早上5:00～凌晨2:00；搭乘位置就在航廈出境大廳出口外面，找 「Tramvia」 或 「T2」 的電車圖示指標，步行約 2 分鐘即可抵達；平均10～20分鐘一班，車程約20分鐘，坐往市區 Unità 方向，在Alamanni - Stazione 站下車（此站即是佛羅倫斯中央車站 SMN 旁的路面電車站，離住宿地點走路5～6分鐘）；一人車資單程€1.70 + 一間大型行李要再€1.70，可以用現金或信用卡在自動售票機購票。買完票上車後，務必將車票插入車廂內的黃色打票機印上時間，若未打票，遇到查票會被視為逃票並處以高額罰款"],
   "map_url":"https://maps.app.goo.gl/YbbKi9tjWQ8MeznX8"
   },
   {
@@ -134,16 +132,6 @@
   "description":"旅遊服務中心，可以領firenze card實體卡",
   "opening_hours":"09:00-19:00",
   "map_url":"https://maps.app.goo.gl/jsZSkyjLj64LKR2H6?g_st=ic"
-  },
-  {
-  "id":"orsanmichele",
-  "name":"佛羅倫薩聖彌額爾教堂 Chiesa e Museo di Orsanmichele",
-  "type":"attraction",
-  "tags":["景點"],
-  "description":"向櫃檯出示Firenze Card 即可直接免費預約烏菲茲美術館跟學院美術館的時段",
-  "opening_hours":"08:30-18:30",
-  "tips":["本身也可以用firenze card進入"],
-  "map_url":"https://maps.app.goo.gl/DsgxJ2xZRR1WYESg6?g_st=ic"
   },
   {
   "id":"smn",
@@ -202,7 +190,7 @@
   "type":"accommodation",
   "tags":["住宿"],
   "description":"florence住宿",
-  "tips":["check in 時間: 15:00-24:00" , "退房時間: 6:00-10:00"],
+  "tips":["已支付€20提早到13:00 check in","退房時間:6:00-10:00"],
   "map_url":"https://maps.app.goo.gl/5cLyoAcpnWG9Jbah6"
   },
   {
@@ -780,7 +768,7 @@
   "tags":["景點"],
   "description":"佛羅倫斯必到景點",
   "opening_hours":"週二到週日8:15～18:50",
-  "tips":["最好8點前到達排隊或先預約門票","如果有買firenze card，直接到 B-Ticket 官方網站點選要的日期，票種選擇「Free Ticket / Gratuto」（免費票），系統會收取每人每館 €4 的線上預約手續費。並在入場時搭配Firenze card 使用。","也可以電話預約，免費","全票€16","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"],
+  "tips":["已電話預約早上8:15，預約代碼:23725008，名字:LU","先拿著預約碼跟firenze card去美術館斜對面的官方售票處My Accademia換取實體票","換好票後，橫過馬路前往美術館門口的Red Point預約專屬通道排隊安檢入場","必看：米開朗基羅《大衛David》 《聖殤像 The Palestrina Pietà》《奴隸 Quattro Prigioni》、利比&貝魯吉諾 Pengino 《御下聖體 Deposition From the Cross》"],
   "map_url":"https://maps.app.goo.gl/UgXzQgWVZq9K5LHV7?g_st=ic"
   },
   {
@@ -982,7 +970,7 @@
   "type":"attraction",
   "tags":["景點"],
   "description":"原是由瓦薩利建造的辦公室，後來改成麥迪奇家族的收藏展覽室",
-  "tips":["可以用firenze card，並且要在第一天去佛羅倫薩聖彌額爾教堂櫃檯預約入場時段","波提切利：《維納斯的誕生》《春神 La Primavera》《誹謗 The Calumny of Apelles》","拉斐爾 RaffaelloSanzio：《金翅雀的聖母 Madonna of the Goldfinch》《年輕自畫像Self-portrait》","卡拉瓦喬Caravaggio：《酒神 Bacchus》","提香Vecellio Tiziano：《弗蘿拉Flora》《烏比諾的維納斯The Venus of Urbino》","達文西 Leonardo da Vinci：《三博士來朝Adorazionedei Magi》","西方繪畫之父&文藝復興開創者-喬托Giotto di Bondone：《莊嚴聖母 Maestà》","法蘭契斯卡Piero Della Francesca：《烏比諾公爵及夫人 Diptych of the Duchess and Duke of Ubino 》","利比 Filippo Lippi：《聖母、聖嬰和天使 Madonna with child and two angles》","米開朗基羅：《聖家族 Doni Tondo及畫框》","杜勒Albrecht Dürer：《賢士來朝 Adoration of the Magi》","貝里尼 Giovanni Bellini：《神聖的預言 Sacred Allergony》","林布蘭 Rembrandt van Rign：《自畫像》","魯本斯 Rubens：《伊莎貝拉．班達畫像 Portrait of Isabella Brandt》"],
+  "tips":["已線上免費預約下午2點入場，拿著電子預約票跟firenze card去3號門換實體票，就能去優先通道安檢入場了","可以用firenze card","波提切利：《維納斯的誕生》《春神 La Primavera》《誹謗 The Calumny of Apelles》","拉斐爾 RaffaelloSanzio：《金翅雀的聖母 Madonna of the Goldfinch》《年輕自畫像Self-portrait》","卡拉瓦喬Caravaggio：《酒神 Bacchus》","提香Vecellio Tiziano：《弗蘿拉Flora》《烏比諾的維納斯The Venus of Urbino》","達文西 Leonardo da Vinci：《三博士來朝Adorazionedei Magi》","西方繪畫之父&文藝復興開創者-喬托Giotto di Bondone：《莊嚴聖母 Maestà》","法蘭契斯卡Piero Della Francesca：《烏比諾公爵及夫人 Diptych of the Duchess and Duke of Ubino 》","利比 Filippo Lippi：《聖母、聖嬰和天使 Madonna with child and two angles》","米開朗基羅：《聖家族 Doni Tondo及畫框》","杜勒Albrecht Dürer：《賢士來朝 Adoration of the Magi》","貝里尼 Giovanni Bellini：《神聖的預言 Sacred Allergony》","林布蘭 Rembrandt van Rign：《自畫像》","魯本斯 Rubens：《伊莎貝拉．班達畫像 Portrait of Isabella Brandt》"],
   "opening_hours":"週二至週日8:15～18:30",
   "map_url":"https://maps.app.goo.gl/ZNreb8Gje7S6hUqUA"
   },
